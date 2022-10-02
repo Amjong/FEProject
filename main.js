@@ -5,6 +5,7 @@ const navbar = document.querySelector('#navbar');
 const navbarHeight = navbar.getBoundingClientRect().height;
 const home = document.querySelector('.home__container');
 const homeHeight = home.getBoundingClientRect().height;
+const arrowBtn = document.querySelector('.arrow-up');
 document.addEventListener('scroll', () => {
   navbarChange();
   homeTransparent();
@@ -12,10 +13,8 @@ document.addEventListener('scroll', () => {
 
 // Make home slowly fade to transparent as the window scroll down
 function homeTransparent() {
-  if (window.scrollY > 0) {
-    const opacityValue = 1 - window.scrollY / homeHeight;
-    home.style.opacity = opacityValue.toString();
-  }
+  const opacityValue = 1 - window.scrollY / homeHeight;
+  home.style.opacity = opacityValue.toString();
 }
 
 function navbarChange() {
@@ -41,3 +40,16 @@ contactBtn.addEventListener('click', (event) => {
 function scrollIntoView(Selector) {
   document.querySelector(Selector).scrollIntoView({ behavior: 'smooth' });
 }
+
+document.addEventListener('scroll', () => {
+  if (window.scrollY > homeHeight / 2) {
+    arrowBtn.classList.add('visible');
+  } else {
+    arrowBtn.classList.remove('visible');
+  }
+});
+
+arrowBtn.addEventListener('click', () => {
+  window.scrollTo(top);
+  homeTransparent();
+});
