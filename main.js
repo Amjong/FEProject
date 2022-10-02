@@ -10,3 +10,12 @@ document.addEventListener('scroll', () => {
     navbar.classList.remove('navbar--dark');
   }
 });
+
+// when click navbar menu, scroll move to proper section
+const navbarMenuItem = document.querySelector('.navbar__menu');
+navbarMenuItem.addEventListener('click', (event) => {
+  const tempElement = document.querySelector(
+    event.target.dataset.link.toString()
+  );
+  tempElement.scrollIntoView({ behavior: 'smooth' });
+});
