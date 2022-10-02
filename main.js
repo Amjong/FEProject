@@ -14,8 +14,15 @@ document.addEventListener('scroll', () => {
 // when click navbar menu, scroll move to proper section
 const navbarMenuItem = document.querySelector('.navbar__menu');
 navbarMenuItem.addEventListener('click', (event) => {
-  const tempElement = document.querySelector(
-    event.target.dataset.link.toString()
-  );
-  tempElement.scrollIntoView({ behavior: 'smooth' });
+  scrollIntoView(event.target.dataset.link);
 });
+
+// handle contact me btn to move scroll contact section
+const contactBtn = document.querySelector('.home__contact');
+contactBtn.addEventListener('click', (event) => {
+  scrollIntoView(event.target.dataset.link);
+});
+
+function scrollIntoView(Selector) {
+  document.querySelector(Selector).scrollIntoView({ behavior: 'smooth' });
+}
