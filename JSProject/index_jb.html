@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JB's Portfolio</title>
+    <meta name="description" content="Portfolio for software Enginner JB" />
+    <meta name="author" content="JB" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/7cf4b96ab6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-diaspora"></i>
+        <a href="#">Jongbum</a>
+      </div>
+      <div class="navbar__menu">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item">Home</li>
+          <li class="navbar__menu__item">About</li>
+          <li class="navbar__menu__item">Skills</li>
+          <li class="navbar__menu__item">My Work</li>
+          <li class="navbar__menu__item">Testimonials</li>
+          <li class="navbar__menu__item">Contact</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="section">
+      <img
+        src="imgs/profile.jpeg"
+        alt="Jongbum's profile photo"
+        class="home__avatar"
+      />
+      <h1 class="home__title">Hello, <br />I'm Gamza Coder</h1>
+      <h2 class="home__description">
+        Embedded C developer who want to create web pages
+      </h2>
+      <button class="home__contact">Contact me</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h1>About me</h1>
+      <p>
+        worked at Samsung Electronics' home appliance division for about 3 years
+        and developed Embedded C. interested in Front-End development and am
+        currently studying.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">Front-End</h2>
+          <div class="major__description">HTML, CSS, JavaScript</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-c"></i>
+          </div>
+          <h2 class="major__title">Embedded C</h2>
+          <div class="major__description">C, Kernel</div>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img
+            src="imgs/jobs/logo-samsung.jpg"
+            alt="samsung logo"
+            class="job__logo"
+          />
+          <div class="job__description">
+            <p class="job__name">
+              Currently working at Samsung as Software Enginner
+            </p>
+            <p class="job__period">2020 Jan - Until now</p>
+          </div>
+        </div>
+        <div class="job">
+          <img src="imgs/jobs/logo-uos.png" alt="uos logo" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">Graduated from the University of Seoul.</p>
+            <p class="job__period">2013 Mar - 2020 Feb</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h1>Skills</h1>
+      <h2>Skills & Attributes</h2>
+      <p>
+        Experience with all phases of the software life-cycle. Passion for
+        learning new technologies. Capable of working within a team environment
+        and independently. Ability to plan and time schedule, work under strict
+        time pressure and adapt quickly when needed.
+      </p>
+      <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset__title">Skills</h3>
+          <div class="skill">
+            <div class="skill_description">
+              <span>C</span>
+              <span>90%</span>
+            </div>
+            <div class="skill_bar">
+              <div class="skill_value"></div>
+            </div>
+            <div class="skill_description">
+              <span>JavaScript</span>
+              <span>70%</span>
+            </div>
+            <div class="skill_bar">
+              <div class="skill_value"></div>
+            </div>
+            <div class="skill_description">
+              <span>HTML</span>
+              <span>50%</span>
+            </div>
+            <div class="skill_bar">
+              <div class="skill_value"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillset__right">
+          <div class="tools">
+            <h3 class="skillset__title">Tools</h3>
+            <ul class="tools__list">
+              <li><span>Visual Studio Code</span></li>
+              <li><span>TeraTerm</span></li>
+              <li><span>DiffChecker</span></li>
+              <li><span>CMake</span></li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset__title">Etc</h3>
+            <ul class="etc_list">
+              <li><span>Git</span></li>
+              <li><span>Low-level debugging</span></li>
+              <li><span>Algorithm</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn">
+          All<span class="category__count">2</span>
+        </button>
+        <button class="category__btn">
+          Front-end<span class="category__count">1</span>
+        </button>
+        <button class="category__btn">
+          Embedded C<span class="category__count">1</span>
+        </button>
+      </div>
+
+      <div class="work__projects">
+        <a
+          href="https://github.com/Amjong/PortfolioCloneCoding"
+          class="project"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="imgs/projects/projects-html5.png"
+            alt=""
+          />
+          <div class="project__description">
+            <h3>Portfolio clone coding</h3>
+            <span>with HTML and CSS, JavaScript</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/Samsung/TizenRT"
+          class="project"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="imgs/projects/projects-otn.png"
+            alt=""
+          />
+          <div class="project__description">
+            <h3>TizenRT Application Develop</h3>
+            <span>S/W Update module, remote-connect module</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+      <h1>Testimonials</h1>
+      <h3>See what they say about me</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img
+            src="imgs/people1.png"
+            alt="People"
+            class="testimonial__avatar"
+          />
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
+              ea velit autem exercitationem consectetur aut quidem assumenda
+              ipsam incidunt, itaque, voluptatem sequi a quo rerum! Ipsam,
+              doloribus temporibus. Itaque, doloribus.
+            </p>
+            <p class="name">
+              <a href="http://www.samsung.com">Jongbum</a> / Samsung
+            </p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img
+            src="imgs/people1.png"
+            alt="People"
+            class="testimonial__avatar"
+          />
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
+              ea velit autem exercitationem consectetur aut quidem assumenda
+              ipsam incidunt, itaque, voluptatem sequi a quo rerum! Ipsam,
+              doloribus temporibus. Itaque, doloribus.
+            </p>
+            <p class="name">
+              <a href="http://www.samsung.com">Jongbum</a> / Samsung
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">amjong2@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/Amjong">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2022 Gamza coding - All rights reserved</p>
+    </section>
+  </body>
+</html>
