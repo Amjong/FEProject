@@ -1,24 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { format } from 'timeago.js';
 
-export default function VideoSnippet() {
-  const [snippet, setSnippet] = useState(initialSnippet);
-  const fetchingVideo = () => {
-    fetch(`data/videosByVideoID_Snippet.json`)
-      .then((response) => response.json())
-      .then((data) => {
-        const targetSnippet = data.items[0].snippet;
-        setSnippet({
-          id: data.items[0].id,
-          title: targetSnippet.title,
-          description: targetSnippet.description,
-          publishedAt: targetSnippet.publishedAt,
-          thumbnails: targetSnippet.thumbnails,
-          channelTitle: targetSnippet.channelTitle,
-        });
-      });
-  };
-  useEffect(fetchingVideo, []);
+export default function VideoSnippet({ snippet }) {
+  //   const [snippet, setSnippet] = useState(initialSnippet);
+  //   const fetchingVideo = () => {
+  //     fetch(`data/videosByVideoID_Snippet.json`)
+  //       .then((response) => response.json())
+  //       .then((data) => {
+  //         const targetSnippet = data.items[0].snippet;
+  //         setSnippet({
+  //           id: data.items[0].id,
+  //           title: targetSnippet.title,
+  //           description: targetSnippet.description,
+  //           publishedAt: targetSnippet.publishedAt,
+  //           thumbnails: targetSnippet.thumbnails,
+  //           channelTitle: targetSnippet.channelTitle,
+  //         });
+  //       });
+  //   };
+  //   useEffect(fetchingVideo, []);
+  console.log(snippet);
   return (
     <>
       <img
