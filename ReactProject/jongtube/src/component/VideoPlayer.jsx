@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-export default function Video() {
+export default function VideoPlayer() {
   const [videoHTML, setVideoHTML] = useState(``);
   const fetchingVideo = () => {
     fetch(`data/videosByVideoID_Player.json`)
