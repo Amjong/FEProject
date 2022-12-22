@@ -1,12 +1,11 @@
-import VideoPlayer from './component/VideoPlayer';
 import './App.css';
-import VideoSnippet from './component/VideoSnippet';
 import VideoList from './component/VideoList';
+import Navbar from './component/Navbar';
 
 function App() {
   return (
     <div className='App'>
-      <div>jongtube</div>
+      <Navbar></Navbar>
       <VideoList></VideoList>
     </div>
   );
