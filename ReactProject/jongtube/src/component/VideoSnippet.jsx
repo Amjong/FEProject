@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { format } from 'timeago.js';
 
-export default function VideoSnippet({ id, snippet }) {
+export default function VideoSnippet({ id, snippet, channelSnippet }) {
   const navigate = useNavigate();
   const handleClick = () => {
     navigate(`/watch/${id}`);
@@ -10,9 +10,10 @@ export default function VideoSnippet({ id, snippet }) {
   return (
     <>
       <img
+        alt='videoThumbnail'
         src={snippet.thumbnails.default.url}
         width={snippet.thumbnails.default.width}
-        heigth={snippet.thumbnails.default.height}
+        height={snippet.thumbnails.default.height}
         onClick={handleClick}
       ></img>
       <div>{snippet.title}</div>
