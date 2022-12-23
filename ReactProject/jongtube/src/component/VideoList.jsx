@@ -14,7 +14,12 @@ export default function VideoList() {
   return (
     <div>
       {list.map((item) => {
-        return <VideoSnippet snippet={item.snippet}></VideoSnippet>;
+        return (
+          <VideoSnippet
+            id={item.id || item.id.videoID}
+            snippet={item.snippet}
+          ></VideoSnippet>
+        );
       })}
     </div>
   );

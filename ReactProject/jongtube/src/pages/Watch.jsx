@@ -6,8 +6,7 @@ export default function Watch() {
   const { videoID } = useParams();
   return (
     <div>
-      Watch
-      <VideoList></VideoList>
+      Watch {videoID}!<VideoList></VideoList>
     </div>
   );
 }
