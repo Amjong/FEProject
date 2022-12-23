@@ -8,7 +8,7 @@ export default function Navbar() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setText('');
-    navigate(`search/${text}`);
+    navigate(`/search/${text}`);
   };
   const handleChange = (e) => {
     setText(e.target.value);

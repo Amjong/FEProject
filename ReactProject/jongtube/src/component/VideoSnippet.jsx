@@ -5,7 +5,7 @@ import { format } from 'timeago.js';
 export default function VideoSnippet({ id, snippet }) {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate(`watch/${id}`);
+    navigate(`/watch/${id}`);
   };
   return (
     <>
