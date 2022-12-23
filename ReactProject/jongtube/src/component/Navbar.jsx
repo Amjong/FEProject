@@ -18,7 +18,12 @@ export default function Navbar() {
       <FaYoutube></FaYoutube>
       JongTube
       <form onSubmit={handleSubmit}>
-        <input type='text' value={text} onChange={handleChange} />
+        <input
+          type='text'
+          placeholder='search...'
+          value={text}
+          onChange={handleChange}
+        />
         <button>
           <FaSearch></FaSearch>
         </button>
