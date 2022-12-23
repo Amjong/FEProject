@@ -6,7 +6,6 @@ export default function VideoPlayer() {
     fetch(`../data/videosByVideoID_Player.json`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setVideoHTML(data.items[0].player.embedHtml);
       });
   };

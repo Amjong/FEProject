@@ -24,6 +24,7 @@ export default function Watch() {
       <div>{snippet.title}</div>
       <div>{snippet.channelTitle}</div>
       <div>{snippet.description}</div>
+      <VideoList type='related'></VideoList>
     </div>
   );
 }

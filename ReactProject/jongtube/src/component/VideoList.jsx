@@ -1,10 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import VideoSnippet from './VideoSnippet';
 
-export default function VideoList() {
+export default function VideoList(props) {
   const [list, setList] = useState([]);
+  const getFetchURL = () => {
+    if (props.type === 'popular') {
+      return '../data/videosMostPopular.json';
+    } else if (props.type === 'keyword') {
+      return '../data/searchByKeyword.json';
+    } else if (props.type === 'related') {
+      return '../data/searchRelatedVideos.json';
+    } else {
+      throw new Error('Invalid type!!');
+    }
+  };
   const fetchingVideos = () => {
-    fetch('../data/videosMostPopular.json', {
+    fetch(getFetchURL(), {
       headers: {
         Accept: 'application / json',
       },
@@ -26,8 +37,8 @@ export default function VideoList() {
       {list.map((item) => {
         return (
           <VideoSnippet
-            key={item.id || item.id.videoID}
-            id={item.id || item.id.videoID}
+            key={item.id.videoId || item.id}
+            id={item.id.videoId || item.id}
             snippet={item.snippet}
           ></VideoSnippet>
         );
