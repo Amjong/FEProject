@@ -17,9 +17,9 @@ export default function VideoSnippet({ id, snippet, channelSnippet }) {
         // height={snippet.thumbnails.default.height}
         onClick={handleClick}
       ></img>
-      <div className='text-clip'>{snippet.title}</div>
-      <div>{snippet.channelTitle}</div>
-      <div> {format(snippet.publishedAt, 'en_US')}</div>
+      <div className='text-clip font-sans font-bold'>{snippet.title}</div>
+      <div className='text-sm'>{snippet.channelTitle}</div>
+      <div className='text-sm'> {format(snippet.publishedAt, 'en_US')}</div>
     </span>
   );
 }
