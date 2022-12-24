@@ -13,13 +13,16 @@ export default function VideoSnippet({ id, snippet, channelSnippet }) {
         className='w-full'
         alt='videoThumbnail'
         src={snippet.thumbnails.default.url}
-        // width={snippet.thumbnails.default.width}
-        // height={snippet.thumbnails.default.height}
         onClick={handleClick}
       ></img>
-      <div className='text-clip font-sans font-bold'>{snippet.title}</div>
-      <div className='text-sm'>{snippet.channelTitle}</div>
-      <div className='text-sm'> {format(snippet.publishedAt, 'en_US')}</div>
+      <div className='text-white text-clip font-sans font-bold'>
+        {snippet.title}
+      </div>
+      <div className='text-gray-500 text-sm'>{snippet.channelTitle}</div>
+      <div className='text-gray-500 text-sm'>
+        {' '}
+        {format(snippet.publishedAt, 'en_US')}
+      </div>
     </span>
   );
 }
