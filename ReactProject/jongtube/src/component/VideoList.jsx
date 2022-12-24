@@ -33,7 +33,7 @@ export default function VideoList(props) {
   };
   useEffect(fetchingVideos, []);
   return (
-    <div>
+    <div className='flex flex-wrap'>
       {list.map((item) => {
         return (
           <VideoSnippet
