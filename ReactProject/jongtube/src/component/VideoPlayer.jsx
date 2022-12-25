@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
-export default function VideoPlayer() {
+export default function VideoPlayer({ videoID }) {
   const [videoHTML, setVideoHTML] = useState(``);
   const fetchingVideo = () => {
-    fetch(`../data/videosByVideoID_Player.json`)
+    fetch(
+      `https://youtube.googleapis.com/youtube/v3/videos?part=player%2CcontentDetails%2Cstatistics&id=${videoID}&key=AIzaSyB_YGF6IgcjxJ6DB8iE3BrYctCoxOBQrng`
+    )
       .then((response) => response.json())
       .then((data) => {
         let tempString = data.items[0].player.embedHtml;

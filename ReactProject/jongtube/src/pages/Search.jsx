@@ -6,7 +6,7 @@ export default function Search() {
   const { keyword } = useParams();
   return (
     <div>
-      <VideoList type='keyword'></VideoList>
+      <VideoList keyword={keyword} type='keyword'></VideoList>
     </div>
   );
 }

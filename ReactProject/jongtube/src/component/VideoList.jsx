@@ -5,11 +5,11 @@ export default function VideoList(props) {
   const [list, setList] = useState([]);
   const getFetchURL = () => {
     if (props.type === 'popular') {
-      return '../data/videosMostPopular.json';
+      return 'https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=Ks-_Mh1QhMc&type=video&maxResults=25&key=AIzaSyB_YGF6IgcjxJ6DB8iE3BrYctCoxOBQrng';
     } else if (props.type === 'keyword') {
-      return '../data/searchByKeyword.json';
+      return `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${props.keyword}&key=AIzaSyB_YGF6IgcjxJ6DB8iE3BrYctCoxOBQrng`;
     } else if (props.type === 'related') {
-      return '../data/searchRelatedVideos.json';
+      return `https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${props.videoID}&type=video&maxResults=25&key=AIzaSyB_YGF6IgcjxJ6DB8iE3BrYctCoxOBQrng`;
     } else {
       throw new Error('Invalid type!!');
     }

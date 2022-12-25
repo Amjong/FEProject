@@ -8,7 +8,9 @@ export default function Watch() {
   const [snippet, setSnippet] = useState({});
   const [channelSnippet, setChannelSnippet] = useState({});
   const fetchingVideo = useCallback(() => {
-    fetch(`../data/videosByVideoID_Snippet.json`)
+    fetch(
+      `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=${videoID}&key=AIzaSyB_YGF6IgcjxJ6DB8iE3BrYctCoxOBQrng`
+    )
       .then((response) => response.json())
       .then((data) => {
         setSnippet({
@@ -20,7 +22,9 @@ export default function Watch() {
   }, []);
 
   const fetchingChannel = useCallback(() => {
-    fetch(`../data/channelById.json`)
+    fetch(
+      `https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=${snippet.channelId}&key=AIzaSyB_YGF6IgcjxJ6DB8iE3BrYctCoxOBQrng`
+    )
       .then((response) => response.json())
       .then((data) => {
         setChannelSnippet({
@@ -39,7 +43,7 @@ export default function Watch() {
         className='relative sm:basis-3/4 w-full h-full'
         style={{ 'padding-bottom': '56.25%' }}
       >
-        <VideoPlayer></VideoPlayer>
+        <VideoPlayer videoID={videoID}></VideoPlayer>
         <div className='h-1/4'>
           <div className='pb-3 text-white font-bold'>{snippet.title}</div>
           <img
@@ -54,7 +58,7 @@ export default function Watch() {
           <div className='pt-5 text-white text-sm'>{snippet.description}</div>
         </div>
       </div>
-      <VideoList type='related'></VideoList>
+      <VideoList videoID={videoID} type='related'></VideoList>
     </div>
   );
 }
