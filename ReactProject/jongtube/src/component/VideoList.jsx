@@ -33,13 +33,14 @@ export default function VideoList(props) {
   };
   useEffect(fetchingVideos, []);
   return (
-    <div className='flex flex-wrap'>
+    <div className='sm:basis-1/4 sm:pl-1 flex flex-wrap'>
       {list.map((item) => {
         return (
           <VideoSnippet
             key={item.id.videoId || item.id}
             id={item.id.videoId || item.id}
             snippet={item.snippet}
+            type={props.type}
           ></VideoSnippet>
         );
       })}

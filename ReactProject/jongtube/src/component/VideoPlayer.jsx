@@ -6,7 +6,12 @@ export default function VideoPlayer() {
     fetch(`../data/videosByVideoID_Player.json`)
       .then((response) => response.json())
       .then((data) => {
-        setVideoHTML(data.items[0].player.embedHtml);
+        let tempString = data.items[0].player.embedHtml;
+        tempString = tempString.replace(
+          'width="480" height="270"',
+          "class='w-full h-3/4 absolute'"
+        );
+        setVideoHTML(tempString);
       });
   };
   useEffect(fetchingVideo, []);

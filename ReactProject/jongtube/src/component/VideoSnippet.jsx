@@ -2,13 +2,20 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { format } from 'timeago.js';
 
-export default function VideoSnippet({ id, snippet, channelSnippet }) {
+export default function VideoSnippet({ id, snippet, type }) {
   const navigate = useNavigate();
   const handleClick = () => {
     navigate(`/watch/${id}`);
   };
+  const getCSS = (type) => {
+    if (type === 'related') {
+      return 'w-full';
+    } else {
+      return 'm-1 lg:w-1/5 md:w-1/4 sm:w-1/3';
+    }
+  };
   return (
-    <span className='m-1 w-1/5'>
+    <span className={getCSS(type)}>
       <img
         className='w-full'
         alt='videoThumbnail'

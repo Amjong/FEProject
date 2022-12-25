@@ -34,17 +34,26 @@ export default function Watch() {
     fetchingChannel();
   }, []);
   return (
-    <div>
-      Watch {videoID}!<VideoPlayer></VideoPlayer>
-      <div>{snippet.title}</div>
-      <img
-        alt='channelThumbnail'
-        src={channelSnippet?.thumbnails?.default?.url ?? ''}
-        width={channelSnippet?.thumbnails?.default?.width ?? ''}
-        height={channelSnippet?.thumbnails?.default?.height ?? ''}
-      ></img>
-      {channelSnippet.title}
-      <div>{snippet.description}</div>
+    <div className='flex flex-wrap sm:flex-nowrap'>
+      <div
+        className='relative sm:basis-3/4 w-full h-full'
+        style={{ 'padding-bottom': '56.25%' }}
+      >
+        <VideoPlayer></VideoPlayer>
+        <div className='h-1/4'>
+          <div className='pb-3 text-white font-bold'>{snippet.title}</div>
+          <img
+            className='rounded-full w-8 h-8 inline mr-2'
+            alt='channelThumbnail'
+            src={channelSnippet?.thumbnails?.default?.url ?? ''}
+            width={channelSnippet?.thumbnails?.default?.width ?? ''}
+            height={channelSnippet?.thumbnails?.default?.height ?? ''}
+          ></img>
+          <div className='text-white inline'>{channelSnippet.title}</div>
+
+          <div className='pt-5 text-white text-sm'>{snippet.description}</div>
+        </div>
+      </div>
       <VideoList type='related'></VideoList>
     </div>
   );
