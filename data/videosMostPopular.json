@@ -1,0 +1,1469 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "KSvfqUbgFSZvsmRofKhhniWxLx0",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "__P48lXW7XrcymAEcWC_CdUbAPo",
+      "id": "qMgb_YhfkUg",
+      "snippet": {
+        "publishedAt": "2022-12-20T13:02:10Z",
+        "channelId": "UC_F8DoJf9MZogEOU51TpTbQ",
+        "title": "Santa Hog Rider Saves Clashmas!",
+        "description": "Santa Hog Rider has arrived to the Village and Arena!\nPlay the Super Santa Hog Rider Challenge now in Clash Royale and Special Clashmas Challenges in Clash of Clans!\n\nMerry Clashmas!\n\nFollow us on our Socials!\nTwitter ► https://twitter.com/ClashRoyale/\nInstagram ► https://www.instagram.com/clashroyale\nTikTok ► https://www.tiktok.com/@clashroyale\nFacebook ► https://www.facebook.com/ClashRoyale/\n\nSubscribe for more! ►► http://supr.cl/SubRoyale\n\nSubscribe for more! ►► http://supr.cl/SubRoyale\n\nEnter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time battles. From the creators of CLASH OF CLANS comes a real-time multiplayer battle game starring your favourite Clash characters and more. Start battling against players from around the world!\n\nBECOME A MASTER OF STRATEGY AND DECK BUILDING\nChoose unique Cards to your Battle Deck and head to the Arena for Battle!\nPlace your Cards right and knock down the enemy King and Princesses from their Towers in a strategic and fast-paced match.\n\nCOLLECT AND UPGRADE 100+ CARDS\nHog Rider! Collect and upgrade 100+ Cards featuring the Clash of Clans troops, spells and defences you know and love and many others. Win battles and progress to new Arenas to unlock powerful new Cards to your collection!\n\nBATTLE YOUR WAY TO THE TOP\nBattle your way to the League and Global Tournaments to match against the best players in the world.\nCompete for glory and rewards!\n\nSEASONAL EVENTS\nUnlock new Seasonal items like Tower Skins, Emotes and powerful Magic Items with the Season Pass and participate in fun Challenges that put your skills to the test!\n\nJOIN A CLAN AND GO TO WAR\nJoin or form a Clan with other players to share Cards and battle in Clan Wars for BIG rewards!\n\nSee you in the Arena!\n\nPLEASE NOTE! Clash Royale is free to download and play, however, some game items can also be purchased for real money. If you don’t want to use this feature, please disable in-app purchases in your device’s settings. Also, under our Terms of Service and Privacy Policy, you must be at least 13 years of age to play or download Clash Royale. A network connection is also required.\n\nSupport:\nAre you having problems? Visit http://supercell.helpshift.com/a/clas... or contact us in-game by going to Settings, Help and support.\n\nPrivacy Policy:\nhttp://supercell.com/en/privacy-policy/\n\nTerms of Service:\nhttp://supercell.com/en/terms-of-serv...\n\nParent’s Guide:\nhttp://supercell.com/en/parents/\n\n#ClashRoyale #clashmas #hogrider",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qMgb_YhfkUg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qMgb_YhfkUg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qMgb_YhfkUg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qMgb_YhfkUg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qMgb_YhfkUg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Clash Royale",
+        "tags": [
+          "Clash Royale",
+          "Clash Royale Game",
+          "Supercell",
+          "Supercell Game",
+          "Clash Royale Supercell",
+          "Mobile Game"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Santa Hog Rider Saves Clashmas!",
+          "description": "Santa Hog Rider has arrived to the Village and Arena!\nPlay the Super Santa Hog Rider Challenge now in Clash Royale and Special Clashmas Challenges in Clash of Clans!\n\nMerry Clashmas!\n\nFollow us on our Socials!\nTwitter ► https://twitter.com/ClashRoyale/\nInstagram ► https://www.instagram.com/clashroyale\nTikTok ► https://www.tiktok.com/@clashroyale\nFacebook ► https://www.facebook.com/ClashRoyale/\n\nSubscribe for more! ►► http://supr.cl/SubRoyale\n\nSubscribe for more! ►► http://supr.cl/SubRoyale\n\nEnter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time battles. From the creators of CLASH OF CLANS comes a real-time multiplayer battle game starring your favourite Clash characters and more. Start battling against players from around the world!\n\nBECOME A MASTER OF STRATEGY AND DECK BUILDING\nChoose unique Cards to your Battle Deck and head to the Arena for Battle!\nPlace your Cards right and knock down the enemy King and Princesses from their Towers in a strategic and fast-paced match.\n\nCOLLECT AND UPGRADE 100+ CARDS\nHog Rider! Collect and upgrade 100+ Cards featuring the Clash of Clans troops, spells and defences you know and love and many others. Win battles and progress to new Arenas to unlock powerful new Cards to your collection!\n\nBATTLE YOUR WAY TO THE TOP\nBattle your way to the League and Global Tournaments to match against the best players in the world.\nCompete for glory and rewards!\n\nSEASONAL EVENTS\nUnlock new Seasonal items like Tower Skins, Emotes and powerful Magic Items with the Season Pass and participate in fun Challenges that put your skills to the test!\n\nJOIN A CLAN AND GO TO WAR\nJoin or form a Clan with other players to share Cards and battle in Clan Wars for BIG rewards!\n\nSee you in the Arena!\n\nPLEASE NOTE! Clash Royale is free to download and play, however, some game items can also be purchased for real money. If you don’t want to use this feature, please disable in-app purchases in your device’s settings. Also, under our Terms of Service and Privacy Policy, you must be at least 13 years of age to play or download Clash Royale. A network connection is also required.\n\nSupport:\nAre you having problems? Visit http://supercell.helpshift.com/a/clas... or contact us in-game by going to Settings, Help and support.\n\nPrivacy Policy:\nhttp://supercell.com/en/privacy-policy/\n\nTerms of Service:\nhttp://supercell.com/en/terms-of-serv...\n\nParent’s Guide:\nhttp://supercell.com/en/parents/\n\n#ClashRoyale #clashmas #hogrider"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "0N9kAGvh10Q0fCrztkSDE9qEAvM",
+      "id": "S58xllXV81I",
+      "snippet": {
+        "publishedAt": "2022-12-20T16:42:38Z",
+        "channelId": "UCBBsPuUY-8UwkSim4zLXp1w",
+        "title": "The Truth About This Upcoming Massive Storm…",
+        "description": "Get your official Ryan Hall, Y'all merch here! https://shopryanhall.com/\n\nIn this video we are talking about the truth behind this massive storm & how the cold air & wind will be the main story, not the snow totals.  \n\n#weatherchannel #ryanhall #ryanhallyall\n\nOFFICIAL WEATHER MERCH: https://shopryanhall.com/\n\nCheck out the StormSeekers discord server!\nhttps://discord.gg/ryanhallyall\n\nFollow me on these things:\n\nhttps://www.facebook.com/ryanhallyall\nhttps://twitter.com/ryanhallyall\nhttps://www.instagram.com/ryanhallyall/\nhttps://www.tiktok.com/@ryanhallyall\nhttps://www.twitch.tv/ryanhallyall\n\nOFFICIAL WEBSITE: https://ryanhallyall.com/\n\nBUSINESS INQUIRIES: info@ryanhallyall.com\n\nSend us something in the mail!\nPO Box 2668\nPikeville, KY 41501\n\nPlease refer to your local National Weather Service office to get the most reliable and up to date weather information as possible.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S58xllXV81I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S58xllXV81I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S58xllXV81I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/S58xllXV81I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/S58xllXV81I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Ryan Hall, Y'all XTRA",
+        "tags": [
+          "ryan hall",
+          "ryan hall yall",
+          "ryanhallyall",
+          "yall",
+          "weather",
+          "weather forecast",
+          "tornado",
+          "hurricane",
+          "snow",
+          "blizzard",
+          "meteorologist",
+          "meteorology",
+          "weather channel"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "The Truth About This Upcoming Massive Storm…",
+          "description": "Get your official Ryan Hall, Y'all merch here! https://shopryanhall.com/\n\nIn this video we are talking about the truth behind this massive storm & how the cold air & wind will be the main story, not the snow totals.  \n\n#weatherchannel #ryanhall #ryanhallyall\n\nOFFICIAL WEATHER MERCH: https://shopryanhall.com/\n\nCheck out the StormSeekers discord server!\nhttps://discord.gg/ryanhallyall\n\nFollow me on these things:\n\nhttps://www.facebook.com/ryanhallyall\nhttps://twitter.com/ryanhallyall\nhttps://www.instagram.com/ryanhallyall/\nhttps://www.tiktok.com/@ryanhallyall\nhttps://www.twitch.tv/ryanhallyall\n\nOFFICIAL WEBSITE: https://ryanhallyall.com/\n\nBUSINESS INQUIRIES: info@ryanhallyall.com\n\nSend us something in the mail!\nPO Box 2668\nPikeville, KY 41501\n\nPlease refer to your local National Weather Service office to get the most reliable and up to date weather information as possible."
+        },
+        "defaultAudioLanguage": "en-US"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "VviOg3rGuYczvqLH63G55Xni_JI",
+      "id": "Mxkg3qLIPC8",
+      "snippet": {
+        "publishedAt": "2022-12-18T18:10:48Z",
+        "channelId": "UCooTLkxcpnTNx6vfOovfBFA",
+        "title": "Argentina vs. France Highlights | 2022 FIFA World Cup Final",
+        "description": "Argentina and France faced off in the highly-anticipated final to the 2022 FIFA World Cup. Argentina showed aggressiveness early as Lionel Messi scored his first World Cup final goal on a penalty kick in 23’ and Ángel Di Maria added another goal in 36’. France made a surprising call after subbing out Olivier Giroud and Ousman Dembele in 40’. Mbappé would put the team on his back in the second half. He would score on a PK in 79’ and would score right after in 81’. The match would head to extra time. Lionel Messi would add another goal in 108’. Kylian Mbappé would add the equalizer in 118’ via PK. The game would go to PK's where Messi and Argentina sealed the victory.\n\n#FOXSoccer  #FIFAWorldCup #LionelMessi \n\nSUBSCRIBE to get the latest FOX Soccer content: http://foxs.pt/SubscribeFOXSOCCER\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n►FOX Sports YouTube Channel: http://foxs.pt/SubscribeFOXSPORTS\n►PBC ON FOX’s YouTube Channel: https://foxs.pt/SubscribePBCONFOX\n►WWE ON FOX YouTube channel: https://foxs.pt/SubscribeWWEONFOX\n►NASCAR ON FOX YouTube channel: https://foxs.pt/SubscribeNASCARonFOX\n►CFB ON FOX YouTube channel: https://foxs.pt/SubscribeCFBonFOX\n\nSee more from FOX Soccer: https://foxs.pt/FOXSoccer\nLike FOX Soccer on Facebook: https://foxs.pt/FOXSoccerFacebook\nFollow FOX Soccer on Twitter: https://foxs.pt/FOXSoccerTwitter\nFollow FOX Soccer on Instagram: https://foxs.pt/FOXSoccerInstagram\n\nAbout FOX Soccer:\nWith exclusive highlights, original programming, and behind the scenes footage, FOX Soccer’s YouTube channel provides the sports content that fans are hungry for. FOX Soccer presents: Bundesliga, MLS, FIFA World Cup, FIFA Women’s World Cup, Copa America, Gold Cup and many more.\n\nArgentina vs. France Highlights | 2022 FIFA World Cup Final\nhttps://youtu.be/Mxkg3qLIPC8\n\nFOX Soccer\nhttps://www.youtube.com/user/Foxsoccer",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Mxkg3qLIPC8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Mxkg3qLIPC8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Mxkg3qLIPC8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Mxkg3qLIPC8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Mxkg3qLIPC8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "FOX Soccer",
+        "tags": [
+          "fox",
+          "fox sports",
+          "soccer",
+          "fox sports soccer",
+          "fox soccer",
+          "2022 FIFA World Cup",
+          "Lionel Messi",
+          "Kylian Mbappe",
+          "Argentina",
+          "France",
+          "golden boot",
+          "fifa world cup",
+          "world cup",
+          "fifa world cup mens",
+          "mens fifa world cup",
+          "world cup highlights",
+          "fifa world cup highlights",
+          "world cup on fox",
+          "soccer on fox",
+          "fs1",
+          "goals scored",
+          "france",
+          "argentina",
+          "2022 fifa world cup final"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Argentina vs. France Highlights | 2022 FIFA World Cup Final",
+          "description": "Argentina and France faced off in the highly-anticipated final to the 2022 FIFA World Cup. Argentina showed aggressiveness early as Lionel Messi scored his first World Cup final goal on a penalty kick in 23’ and Ángel Di Maria added another goal in 36’. France made a surprising call after subbing out Olivier Giroud and Ousman Dembele in 40’. Mbappé would put the team on his back in the second half. He would score on a PK in 79’ and would score right after in 81’. The match would head to extra time. Lionel Messi would add another goal in 108’. Kylian Mbappé would add the equalizer in 118’ via PK. The game would go to PK's where Messi and Argentina sealed the victory.\n\n#FOXSoccer  #FIFAWorldCup #LionelMessi \n\nSUBSCRIBE to get the latest FOX Soccer content: http://foxs.pt/SubscribeFOXSOCCER\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n►FOX Sports YouTube Channel: http://foxs.pt/SubscribeFOXSPORTS\n►PBC ON FOX’s YouTube Channel: https://foxs.pt/SubscribePBCONFOX\n►WWE ON FOX YouTube channel: https://foxs.pt/SubscribeWWEONFOX\n►NASCAR ON FOX YouTube channel: https://foxs.pt/SubscribeNASCARonFOX\n►CFB ON FOX YouTube channel: https://foxs.pt/SubscribeCFBonFOX\n\nSee more from FOX Soccer: https://foxs.pt/FOXSoccer\nLike FOX Soccer on Facebook: https://foxs.pt/FOXSoccerFacebook\nFollow FOX Soccer on Twitter: https://foxs.pt/FOXSoccerTwitter\nFollow FOX Soccer on Instagram: https://foxs.pt/FOXSoccerInstagram\n\nAbout FOX Soccer:\nWith exclusive highlights, original programming, and behind the scenes footage, FOX Soccer’s YouTube channel provides the sports content that fans are hungry for. FOX Soccer presents: Bundesliga, MLS, FIFA World Cup, FIFA Women’s World Cup, Copa America, Gold Cup and many more.\n\nArgentina vs. France Highlights | 2022 FIFA World Cup Final\nhttps://youtu.be/Mxkg3qLIPC8\n\nFOX Soccer\nhttps://www.youtube.com/user/Foxsoccer"
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "hDGnnrDBnJJdGV2f5U_ypwpWG6I",
+      "id": "ZYnaQS3ezzM",
+      "snippet": {
+        "publishedAt": "2022-12-19T19:28:06Z",
+        "channelId": "UCGwu0nbY2wSkW8N-cghnLpA",
+        "title": "Mario but I’m Blindfolded",
+        "description": "teamwork! :D\nJacob: https://www.youtube.com/c/Alpharad\n\n♥ The Team ♥\nColleen: https://twitter.com/SolarCitrus\nClaudia: https://twitter.com/HiyFi_\nDavidBaronArt: https://twitter.com/DavidBaronArt\nDee Helm: https://twitter.com/DeeRedHelm\nDenny: https://twitter.com/90PercentDenny\nDevon: https://www.youtube.com/channel/UCZaIIdSgN8aEUh7g_BgFobQ\nDuckdee: https://twitter.com/duckdeeArt\nJaystarz: https://www.youtube.com/xjaystarzx\nJRF\nLeslie V\nPivots: https://www.youtube.com/user/ThePivotsXXD\nTiffanySeng: https://twitter.com/tiffanyseng_art\n------------------------------------------------------------------------------------\nSUBSCRIBE for more animations!\nhttps://www.youtube.com/@jaidenanimations\n\nMERCH:\nhttps://jaidenanimations.com/\n\nTWITTER:\nhttps://twitter.com/JaidenAnimation\n\nINSTAGRAM:\nhttps://instagram.com/jaiden_animations\n\nWanna Send Fanart?\nYou can send it to me through Twitter or Instagram (links above)\n------------------------------------------------------------------------------------\nMusic:\nVarious Mario songs\n------------------------------------------------------------------------------------\n#jaidenanimations #mario #blindfolded",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZYnaQS3ezzM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZYnaQS3ezzM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZYnaQS3ezzM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZYnaQS3ezzM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Jaiden Animations",
+        "tags": ["jaiden", "animations", "jaidenanimation", "jaidenanimations"],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Mario but I’m Blindfolded",
+          "description": "teamwork! :D\nJacob: https://www.youtube.com/c/Alpharad\n\n♥ The Team ♥\nColleen: https://twitter.com/SolarCitrus\nClaudia: https://twitter.com/HiyFi_\nDavidBaronArt: https://twitter.com/DavidBaronArt\nDee Helm: https://twitter.com/DeeRedHelm\nDenny: https://twitter.com/90PercentDenny\nDevon: https://www.youtube.com/channel/UCZaIIdSgN8aEUh7g_BgFobQ\nDuckdee: https://twitter.com/duckdeeArt\nJaystarz: https://www.youtube.com/xjaystarzx\nJRF\nLeslie V\nPivots: https://www.youtube.com/user/ThePivotsXXD\nTiffanySeng: https://twitter.com/tiffanyseng_art\n------------------------------------------------------------------------------------\nSUBSCRIBE for more animations!\nhttps://www.youtube.com/@jaidenanimations\n\nMERCH:\nhttps://jaidenanimations.com/\n\nTWITTER:\nhttps://twitter.com/JaidenAnimation\n\nINSTAGRAM:\nhttps://instagram.com/jaiden_animations\n\nWanna Send Fanart?\nYou can send it to me through Twitter or Instagram (links above)\n------------------------------------------------------------------------------------\nMusic:\nVarious Mario songs\n------------------------------------------------------------------------------------\n#jaidenanimations #mario #blindfolded"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "U16n2n3wWJ3noFff7LSFUmA_NPg",
+      "id": "h7uYyXVH5bo",
+      "snippet": {
+        "publishedAt": "2022-12-19T20:00:11Z",
+        "channelId": "UCtNdVINwfYFTQEEZgMiQ8FA",
+        "title": "Drinking Deadly Drano - Wrong Place Wrong Time - Hi-Fi Murders | Mystery & Makeup - Bailey Sarian",
+        "description": "Hi friends, happy Monday! \n\nHope you like my new basement set up! I needed a refresher so why not in this cute little spot huh?  But ooowee today’s story, ooo baby girl Lisa, today’s story is gruesome. And it’s not just one crime. It’s a crime within a crime within a crime within a crime. So proceed with caution my friends. And don't get inspired from stupid movies please. Thank you. \n \nAlso, let me know who you want me to talk about next time. Hope you have a great rest of your week, make good choices and I'll be seeing you with a new MMM on Jan 9th 2023 .\nHappy Holidays and please have a happy and safe New Year ! \nxo\nBailey Sarian\n\nalso heres the Magnum Force scene if youre curious : https://youtu.be/_83lyKaXBZw \n\n\n________\n\n:  :    F O L L O W    M E     :  :\n\nDiscord: http://discord.gg/baileysarian\nTik Tok: https://bit.ly/3e3jL9v\nInstagram: http://bit.ly/2nbO4PR\nFacebook: http://bit.ly/2mdZtK6\nTwitter: http://bit.ly/2yT4BLV\nPinterest: http://bit.ly/2mVpXnY\nYoutube: http://bit.ly/1HGw3Og\nSnapchat: https://bit.ly/3cC0V9d\n\nRECOMMEND A STORY HERE: cases4bailey@gmail.com \n\nBusiness Related Emails: Baileysarianteam@wmeagency.com\n\nWanna Send Me Something?\nBailey Sarian\n4400 W Riverside Dr Ste 110-300,\nBurbank, CA 91505\n\n_________\n\n:  :    P R O D U C T S     U S E D    :  :\n\nFACE\nPat McGrath Skin Fetish Foundation Shade 10 \nhttps://shop-links.co/ciHxQPpUWVi \n\nDior Forever Skin Corrector Shade 2.5N \nhttps://shop-links.co/ciHxQPaDLcY\n\nJouer High Coverage Concealer Shade Chiffon \nhttps://shop-links.co/ciHxQOVrtvL\n\nCharlotte Tilbury Beautiful Skin, Sun Kissed Glow Bronzer 2 Medium \nhttps://shop-links.co/ciHxQO6J1TM\n\nMAC Studio Fix Powder NC10 \nhttps://shop-links.co/ciHxQP1mCIB \n\nGivenchy Mat- Finish Enhanced Radiance Loose Powder 3 Voile Rosé \nhttps://shop-links.co/ciHxQQuORcx\n\nBenefit Bronzer “Hoola-Lite” \nhttps://shop-links.co/ciHxQPS4nvw\n\nNARS “Rising Star” Cheek Palette \nhttps://shop-links.co/ciHxQQUZwzH\n\nRevolution Beauty x BeetleJuice \n\n“Handbook for the Recently Deceased” Highlighter Palette \nhttps://shop-links.co/ciHxQQGyzYx\n\nBROWS\nAnastasia Dipbrow Pomade “Dark Brown” \nhttps://shop-links.co/ciHxQQVr0ZK\n\nEYES\nUrban Decay Original Eyeshadow Primer Potion \nhttps://shop-links.co/ciHxQQrtGXF\n\nColourpop Cosmetics Eyeshadow Palette “Not a Box of Chocolate” \nhttps://shop-links.co/ciHxQQy94oQ\n\nColourpop Lip Liner(I used as an eyeliner) “CTRL”\nhttps://shop-links.co/ciHxQQHhgQL\n\nMAC Cosmetics “Black Stack Mascara” \nhttps://shop-links.co/ciHxQQqzJW7\n\nArdell Lashes Style Wispies 113 \nhttps://shop-links.co/ciHxQQhCtME\n\nLIPS\nNARS Velvet MAtte Lip Pencil “Dragon Girl” \nhttps://shop-links.co/ciHxQQI0eyK\n\n♡ \n*These links are affiliate links. Which means, if you click on the link and purchase a product, a small percentage comes back to me. It helps me keep on keepin on with my videos, and I appreciate you if you choose to support. If you don’t, that’s ok too.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h7uYyXVH5bo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h7uYyXVH5bo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h7uYyXVH5bo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/h7uYyXVH5bo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/h7uYyXVH5bo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Bailey Sarian",
+        "tags": [
+          "Bailey sarian",
+          "youtube bailey sarian",
+          "bailey sarian youtube",
+          "youtube bailey",
+          "bailey",
+          "sarian",
+          "mystery makeup monday",
+          "monday mystery makeup",
+          "mystery makeup",
+          "mystery makeup mondays",
+          "makeup artist",
+          "new makeup tutorial",
+          "flawless makeup",
+          "makeup and story time",
+          "makeup story time",
+          "story time and makeup",
+          "story time",
+          "grwm",
+          "grwm and makeup",
+          "get ready with me and makeup",
+          "makeup grwm",
+          "flawless foundation",
+          "mystery monday",
+          "mystery",
+          "monday story time",
+          "christmas makeup",
+          "christmas 2022"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Drinking Deadly Drano - Wrong Place Wrong Time - Hi-Fi Murders | Mystery & Makeup - Bailey Sarian",
+          "description": "Hi friends, happy Monday! \n\nHope you like my new basement set up! I needed a refresher so why not in this cute little spot huh?  But ooowee today’s story, ooo baby girl Lisa, today’s story is gruesome. And it’s not just one crime. It’s a crime within a crime within a crime within a crime. So proceed with caution my friends. And don't get inspired from stupid movies please. Thank you. \n \nAlso, let me know who you want me to talk about next time. Hope you have a great rest of your week, make good choices and I'll be seeing you with a new MMM on Jan 9th 2023 .\nHappy Holidays and please have a happy and safe New Year ! \nxo\nBailey Sarian\n\nalso heres the Magnum Force scene if youre curious : https://youtu.be/_83lyKaXBZw \n\n\n________\n\n:  :    F O L L O W    M E     :  :\n\nDiscord: http://discord.gg/baileysarian\nTik Tok: https://bit.ly/3e3jL9v\nInstagram: http://bit.ly/2nbO4PR\nFacebook: http://bit.ly/2mdZtK6\nTwitter: http://bit.ly/2yT4BLV\nPinterest: http://bit.ly/2mVpXnY\nYoutube: http://bit.ly/1HGw3Og\nSnapchat: https://bit.ly/3cC0V9d\n\nRECOMMEND A STORY HERE: cases4bailey@gmail.com \n\nBusiness Related Emails: Baileysarianteam@wmeagency.com\n\nWanna Send Me Something?\nBailey Sarian\n4400 W Riverside Dr Ste 110-300,\nBurbank, CA 91505\n\n_________\n\n:  :    P R O D U C T S     U S E D    :  :\n\nFACE\nPat McGrath Skin Fetish Foundation Shade 10 \nhttps://shop-links.co/ciHxQPpUWVi \n\nDior Forever Skin Corrector Shade 2.5N \nhttps://shop-links.co/ciHxQPaDLcY\n\nJouer High Coverage Concealer Shade Chiffon \nhttps://shop-links.co/ciHxQOVrtvL\n\nCharlotte Tilbury Beautiful Skin, Sun Kissed Glow Bronzer 2 Medium \nhttps://shop-links.co/ciHxQO6J1TM\n\nMAC Studio Fix Powder NC10 \nhttps://shop-links.co/ciHxQP1mCIB \n\nGivenchy Mat- Finish Enhanced Radiance Loose Powder 3 Voile Rosé \nhttps://shop-links.co/ciHxQQuORcx\n\nBenefit Bronzer “Hoola-Lite” \nhttps://shop-links.co/ciHxQPS4nvw\n\nNARS “Rising Star” Cheek Palette \nhttps://shop-links.co/ciHxQQUZwzH\n\nRevolution Beauty x BeetleJuice \n\n“Handbook for the Recently Deceased” Highlighter Palette \nhttps://shop-links.co/ciHxQQGyzYx\n\nBROWS\nAnastasia Dipbrow Pomade “Dark Brown” \nhttps://shop-links.co/ciHxQQVr0ZK\n\nEYES\nUrban Decay Original Eyeshadow Primer Potion \nhttps://shop-links.co/ciHxQQrtGXF\n\nColourpop Cosmetics Eyeshadow Palette “Not a Box of Chocolate” \nhttps://shop-links.co/ciHxQQy94oQ\n\nColourpop Lip Liner(I used as an eyeliner) “CTRL”\nhttps://shop-links.co/ciHxQQHhgQL\n\nMAC Cosmetics “Black Stack Mascara” \nhttps://shop-links.co/ciHxQQqzJW7\n\nArdell Lashes Style Wispies 113 \nhttps://shop-links.co/ciHxQQhCtME\n\nLIPS\nNARS Velvet MAtte Lip Pencil “Dragon Girl” \nhttps://shop-links.co/ciHxQQI0eyK\n\n♡ \n*These links are affiliate links. Which means, if you click on the link and purchase a product, a small percentage comes back to me. It helps me keep on keepin on with my videos, and I appreciate you if you choose to support. If you don’t, that’s ok too."
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "y_wRHS0CXcbCc1oHEdLve2GJH24",
+      "id": "LDY0JHuqjPw",
+      "snippet": {
+        "publishedAt": "2022-12-20T00:04:19Z",
+        "channelId": "UC4mLlRa_dezwvytudo9s1sw",
+        "title": "TRAVIS HUNTER & DEION SANDERS’ FINAL GAME AT JACKSON STATE..",
+        "description": "Don’t miss out on all the action this week at DraftKings!  Download the DraftKings Sportsbook app today! Sign-up using dkng.co/deestroying or through my promo code DEESTROYING #DKPartner\n\nWe went to Travis Hunter's last game at Jackson State and watched him ball out!\n\nFOLLOW TRAVIS HUNTER (@DB3_tip ) \nhttps://instagram.com/db3_tip/\n\nGET YOUR ELEVEN GEAR HERE : https://theeleven.store\n\nSUBSCRIBE TO MY 2ND CHANNEL :\nhttps://www.youtube.com/channel/UCT_V...\n\nFOLLOW ME ON-\nTwitter : https://www.twitter.com/deestroying\nIG : https://www.instagram.com/deestroying\n\nIf you or someone you know has a gambling problem, crisis counseling and referral services can be accessed by calling 877-8-HOPENY/text HOPENY (467369) (NY) 1-800-GAMBLER (1-800-426-2537) (IL/IN/LA/MI/NJ/PA/TN/WV/WY), 1-800-NEXT STEP (AZ), 1-800-522-4700 (CO/KS/NH), 888-789-7777/visit http://ccpg.org (CT), 1-800-BETS OFF (IA), visit OPGR.org (OR), or 1-888-532-3500 (VA). 21+ (18+ NH/WY). Physically present in AZ/CO/CT/IL/IN/IA/KS/LA(select parishes)/MI/NJ/NY/PA/TN/VA/WV/WY only. Valid 1 per new customer. Min. $5 deposit. Min. $5 pre-game moneyline bet. Bet must win. $150 issued as six (6) $25 free bets. See terms at sportsbook.draftkings.com/footballterms. Ends 12/30/22 at 11:59PM ET. Sponsored by DK.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LDY0JHuqjPw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LDY0JHuqjPw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LDY0JHuqjPw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LDY0JHuqjPw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LDY0JHuqjPw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Deestroying",
+        "tags": [
+          "deestroying",
+          "football",
+          "wide receiver",
+          "best catches",
+          "best football catches",
+          "destroying",
+          "1 on 1",
+          "7 on 7",
+          "one handed catch",
+          "nfl highlights",
+          "football highlights",
+          "highlight tape",
+          "deestroying highlights",
+          "donald de la haye highlights",
+          "friday night lights",
+          "donald de la haye",
+          "kicker",
+          "superbowl",
+          "NFL playoffs",
+          "afc",
+          "nfc",
+          "travis hunter",
+          "deion sanders",
+          "jackson state",
+          "jsu",
+          "college",
+          "college football",
+          "d1",
+          "division 1",
+          "pac 12"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "TRAVIS HUNTER & DEION SANDERS’ FINAL GAME AT JACKSON STATE..",
+          "description": "Don’t miss out on all the action this week at DraftKings!  Download the DraftKings Sportsbook app today! Sign-up using dkng.co/deestroying or through my promo code DEESTROYING #DKPartner\n\nWe went to Travis Hunter's last game at Jackson State and watched him ball out!\n\nFOLLOW TRAVIS HUNTER (@DB3_tip ) \nhttps://instagram.com/db3_tip/\n\nGET YOUR ELEVEN GEAR HERE : https://theeleven.store\n\nSUBSCRIBE TO MY 2ND CHANNEL :\nhttps://www.youtube.com/channel/UCT_V...\n\nFOLLOW ME ON-\nTwitter : https://www.twitter.com/deestroying\nIG : https://www.instagram.com/deestroying\n\nIf you or someone you know has a gambling problem, crisis counseling and referral services can be accessed by calling 877-8-HOPENY/text HOPENY (467369) (NY) 1-800-GAMBLER (1-800-426-2537) (IL/IN/LA/MI/NJ/PA/TN/WV/WY), 1-800-NEXT STEP (AZ), 1-800-522-4700 (CO/KS/NH), 888-789-7777/visit http://ccpg.org (CT), 1-800-BETS OFF (IA), visit OPGR.org (OR), or 1-888-532-3500 (VA). 21+ (18+ NH/WY). Physically present in AZ/CO/CT/IL/IN/IA/KS/LA(select parishes)/MI/NJ/NY/PA/TN/VA/WV/WY only. Valid 1 per new customer. Min. $5 deposit. Min. $5 pre-game moneyline bet. Bet must win. $150 issued as six (6) $25 free bets. See terms at sportsbook.draftkings.com/footballterms. Ends 12/30/22 at 11:59PM ET. Sponsored by DK."
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "peQXB604K5NMUIdE2JEHxdnVwFA",
+      "id": "rCqFuYvgUqE",
+      "snippet": {
+        "publishedAt": "2022-12-20T15:57:19Z",
+        "channelId": "UCYUQQgogVeQY8cMQamhHJcg",
+        "title": "Everything Wrong With Thor: Love and Thunder in 23 Minutes or Less",
+        "description": "This episode is sponsored by BetterHelp. Join today and get 10% off your first month: https://betterhelp.com/cinemasins\n\nThor: Love and Thunder came and went and it seems like most folks were like, \"eh, okay\" about it. And now that we've watched it for sinning purposes, we understand why. \n\nThursday: bad holiday sequel sins.\n\nRemember, no movie is without sin. Which movie's sins should we count next?\n\n•CinemaSins website• https://www.cinemasins.com  \n\n•Channels•\n--TVSins: https://www.youtube.com/c/TVSins/\n--MusicVideoSins: https://www.youtube.com/c/musicvideosins/\n--CommercialSins: https://www.youtube.com/channel/UChg9sWwaJ2TYqpaYqerY5BA \n--CinemaSins Podcast Network: https://www.youtube.com/channel/UC5Nxj5dpHf2p7cN9qdUVEzA \n\n•SinClub Members get MORE! ALL videos early, bonus videos and podcasts, merch discounts and MORE on Patreon!• https://www.patreon.com/CinemaSins \n\n•Merch!• https://www.teespring.com/stores/cinemasins  \n\n•Podcasts•  \n--Recotopia: A happy home for recommended movies, shows, & music from two people you can totally trust. Chris and Jeremy take turns picking a movie each week to recommend, as well as talk about other pop culture stuff they are consuming. Become a member of the SinClub to interact LIVE with them every week! https://tinyurl.com/bdsnw7xj  \n--Behind the Sins:The CinemaSins B-Team give you an unprecedented inside look at what goes on in the CinemaSins universe. Each week Aaron, Denee', Jonathan, and Ian will break down the videos, YouTube comments, your questions and more! https://tinyurl.com/2ydudbtp \n--Captain’s Pod: A Star Trek companion podcast! Join Ian, Deneé, and a crew of intrepid guests as they boldly explore everything they love and, naturally, everything wrong with the franchise that has dominated the final frontier for more than half a century. https://tinyurl.com/56eadf84 \n\n•Writers•\nJeremy: https://twitter.com/cinemasins \nChris: \nAaron: https://twitter.com/aarondicer \nJonathan: https://twitter.com/samloomis13 \nDeneé: https://twitter.com/DeneeSays\nIan: https://twitter.com/whittsinned \nDaniel:\n\n•Other Links•\nDiscord:  https://www.discord.gg/cinemasins \nReddit: https://www.reddit.com/r/CinemaSins/ \nJeremy's Book: https://cinemasins.com/book \nInstagram: https://www.instagram.com/cinemasins/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rCqFuYvgUqE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rCqFuYvgUqE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rCqFuYvgUqE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rCqFuYvgUqE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rCqFuYvgUqE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CinemaSins",
+        "tags": [
+          "wave jockey job",
+          "cinemasins",
+          "cinema sins",
+          "everything wrong with",
+          "eww",
+          "movie",
+          "review",
+          "movie review",
+          "thor",
+          "love and thunder",
+          "thor: love and thunder",
+          "thor love and thunder",
+          "thor sins",
+          "thor cinema sins",
+          "thor love and thunder movie review",
+          "thor love and thunder movie reaction",
+          "thor love and thunder review",
+          "thor love and thunder reaction"
+        ],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Everything Wrong With Thor: Love and Thunder in 23 Minutes or Less",
+          "description": "This episode is sponsored by BetterHelp. Join today and get 10% off your first month: https://betterhelp.com/cinemasins\n\nThor: Love and Thunder came and went and it seems like most folks were like, \"eh, okay\" about it. And now that we've watched it for sinning purposes, we understand why. \n\nThursday: bad holiday sequel sins.\n\nRemember, no movie is without sin. Which movie's sins should we count next?\n\n•CinemaSins website• https://www.cinemasins.com  \n\n•Channels•\n--TVSins: https://www.youtube.com/c/TVSins/\n--MusicVideoSins: https://www.youtube.com/c/musicvideosins/\n--CommercialSins: https://www.youtube.com/channel/UChg9sWwaJ2TYqpaYqerY5BA \n--CinemaSins Podcast Network: https://www.youtube.com/channel/UC5Nxj5dpHf2p7cN9qdUVEzA \n\n•SinClub Members get MORE! ALL videos early, bonus videos and podcasts, merch discounts and MORE on Patreon!• https://www.patreon.com/CinemaSins \n\n•Merch!• https://www.teespring.com/stores/cinemasins  \n\n•Podcasts•  \n--Recotopia: A happy home for recommended movies, shows, & music from two people you can totally trust. Chris and Jeremy take turns picking a movie each week to recommend, as well as talk about other pop culture stuff they are consuming. Become a member of the SinClub to interact LIVE with them every week! https://tinyurl.com/bdsnw7xj  \n--Behind the Sins:The CinemaSins B-Team give you an unprecedented inside look at what goes on in the CinemaSins universe. Each week Aaron, Denee', Jonathan, and Ian will break down the videos, YouTube comments, your questions and more! https://tinyurl.com/2ydudbtp \n--Captain’s Pod: A Star Trek companion podcast! Join Ian, Deneé, and a crew of intrepid guests as they boldly explore everything they love and, naturally, everything wrong with the franchise that has dominated the final frontier for more than half a century. https://tinyurl.com/56eadf84 \n\n•Writers•\nJeremy: https://twitter.com/cinemasins \nChris: \nAaron: https://twitter.com/aarondicer \nJonathan: https://twitter.com/samloomis13 \nDeneé: https://twitter.com/DeneeSays\nIan: https://twitter.com/whittsinned \nDaniel:\n\n•Other Links•\nDiscord:  https://www.discord.gg/cinemasins \nReddit: https://www.reddit.com/r/CinemaSins/ \nJeremy's Book: https://cinemasins.com/book \nInstagram: https://www.instagram.com/cinemasins/"
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "gHNc4Nhk_9jGOUZvy7nnYiUPwCU",
+      "id": "zr0leGS8xeI",
+      "snippet": {
+        "publishedAt": "2022-12-20T15:17:36Z",
+        "channelId": "UCYUbNjkuE4lsr2v1Id2O1oA",
+        "title": "Northern California earthquake causes 'widespread damage' to roads, homes",
+        "description": "A magnitude 6.4 earthquake shook parts of Northern California early Tuesday, jolting people awake, the U.S. Geological Survey said, causing widespread damage and leaving thousands without power.\n\nHere's the latest: https://abc7ne.ws/3hCNaK3\n\n#earthquake #quake #ferndale #humboldtcounty #abc7news",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zr0leGS8xeI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zr0leGS8xeI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zr0leGS8xeI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zr0leGS8xeI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zr0leGS8xeI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "ABC7 News Bay Area",
+        "tags": [
+          "abc",
+          "abc7 news",
+          "earthquake",
+          "humboldt earthquake",
+          "ferndale earthquake",
+          "eureka earthquake",
+          "california earthquake",
+          "power outage humboldt county",
+          "northern california earthquake",
+          "ca earthquake",
+          "quake"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Northern California earthquake causes 'widespread damage' to roads, homes",
+          "description": "A magnitude 6.4 earthquake shook parts of Northern California early Tuesday, jolting people awake, the U.S. Geological Survey said, causing widespread damage and leaving thousands without power.\n\nHere's the latest: https://abc7ne.ws/3hCNaK3\n\n#earthquake #quake #ferndale #humboldtcounty #abc7news"
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Y5wCOn-9SdnUtXFRVXgXjuw5qRI",
+      "id": "Z8mOxhAjyqQ",
+      "snippet": {
+        "publishedAt": "2022-12-19T16:56:54Z",
+        "channelId": "UCLXzq85ijg2LwJWFrz4pkmw",
+        "title": "Dak Prescott throws OT pick-six, Cowboys blow 17-point lead in loss vs. Jaguars | NFL | UNDISPUTED",
+        "description": "The Dallas Cowboys came up short against the Jacksonville Jaguars despite being road favorites. The Dallas defense allowed 27 points in the second half (blew a 17-point lead) and Dak Prescott threw two interceptions, including the game-losing pick-six in overtime. Skip Bayless and Shannon Sharpe discuss who is most to blame for America's Team's collapse.\n\n#Undisputed #NFL #Cowboys\n\nDownload the free-to-play FOX Bet Super 6 app: https://foxs.pt/3z96p0j\n\nSUBSCRIBE to get the latest UNDISPUTED content: http://foxs.pt/SubscribeUNDISPUTED\nListen to UNDISPUTED on Spotify: https://foxs.pt/UNDISPUTEDSpotify\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n► Watch the latest content from UNDISPUTED: https://foxs.pt/TheLatestOnUNDISPUTED\n\n▶ First Things First's YouTube channel: http://foxs.pt/SubscribeFIRSTTHINGSFIRST\n▶ The Herd with Colin Cowherd’s YouTube channel: http://foxs.pt/SubscribeTHEHERD\n► SPEAK's YouTube channel: http://sprtspod.fox/SUBSCRIBEtoSpeak\n► FOX Bet Live’s YouTube channel: https://foxs.pt/SubscribeFOXBETLIVE\n► Club Shay Shay’s YouTube channel: http://foxs.pt/SubscribeCLUBSHAYSHAY\n► The Skip Bayless Show YouTube channel: http://sprtspod.fox/SUBSCRIBESkipShow\n▶ Titus & Tate's YouTube channel: http://foxs.pt/SubscribeTITUSANDTATE\n► What's Wright? with Nick Wright YouTube channel: http://sprtspod.fox/whatswright/youtube\n▶ The Carton Show’s YouTube channel: http://sprtspod.fox/SubscribeCartonShow\n\nSee more from UNDISPUTED: http://foxs.pt/UNDISPUTEDFoxSports\nLike UNDISPUTED on Facebook: http://foxs.pt/UNDISPUTEDFacebook\nFollow UNDISPUTED on Twitter: http://foxs.pt/UNDISPUTEDTwitter\nFollow UNDISPUTED on Instagram: http://foxs.pt/UNDISPUTEDInstagram\nFollow UNDISPUTED on TikTok: https://www.tiktok.com/@undisputedonfs1?lang=en\n\nFollow Skip Bayless on Twitter: http://foxs.pt/SkipBaylessTwitter\nFollow Shannon Sharpe on Twitter: http://foxs.pt/ShannonSharpeTwitter\n\nAbout Skip and Shannon: UNDISPUTED:\nUNDISPUTED is a daily two-and-a-half hour sports debate show starring Skip Bayless and Shannon Sharpe. Every day, Skip and Shannon will give their unfiltered, incisive, passionate opinions on the biggest sports topics of the day.\n\nDak Prescott throws OT pick-six, Cowboys blow 17-point lead in loss vs. Jaguars | NFL | UNDISPUTED\nhttps://youtu.be/Z8mOxhAjyqQ\n\nSkip and Shannon: UNDISPUTED\nhttps://www.youtube.com/c/UndisputedOnFS1",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z8mOxhAjyqQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z8mOxhAjyqQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z8mOxhAjyqQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Z8mOxhAjyqQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Z8mOxhAjyqQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Skip and Shannon: UNDISPUTED",
+        "tags": [
+          "skip bayless",
+          "shannon sharpe",
+          "skip bayless shannon sharpe",
+          "fox",
+          "fox sports",
+          "fs1",
+          "undisputed",
+          "skip and shannon",
+          "fox sports 1",
+          "sports",
+          "sports news",
+          "NFL on FOX",
+          "NFL on FS1",
+          "NFL",
+          "Road to the Playoffs",
+          "AFC",
+          "NFC",
+          "AFC South",
+          "AFC North",
+          "NFC South",
+          "NFC North",
+          "NFC West",
+          "NFC East",
+          "AFC West",
+          "AFC East",
+          "Cowboys",
+          "Pick Six",
+          "jaguars",
+          "dallas cowboys",
+          "jacksonville jaguars",
+          "cowboys vs jaguars",
+          "dak prescott",
+          "trevor lawrence"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Dak Prescott throws OT pick-six, Cowboys blow 17-point lead in loss vs. Jaguars | NFL | UNDISPUTED",
+          "description": "The Dallas Cowboys came up short against the Jacksonville Jaguars despite being road favorites. The Dallas defense allowed 27 points in the second half (blew a 17-point lead) and Dak Prescott threw two interceptions, including the game-losing pick-six in overtime. Skip Bayless and Shannon Sharpe discuss who is most to blame for America's Team's collapse.\n\n#Undisputed #NFL #Cowboys\n\nDownload the free-to-play FOX Bet Super 6 app: https://foxs.pt/3z96p0j\n\nSUBSCRIBE to get the latest UNDISPUTED content: http://foxs.pt/SubscribeUNDISPUTED\nListen to UNDISPUTED on Spotify: https://foxs.pt/UNDISPUTEDSpotify\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n► Watch the latest content from UNDISPUTED: https://foxs.pt/TheLatestOnUNDISPUTED\n\n▶ First Things First's YouTube channel: http://foxs.pt/SubscribeFIRSTTHINGSFIRST\n▶ The Herd with Colin Cowherd’s YouTube channel: http://foxs.pt/SubscribeTHEHERD\n► SPEAK's YouTube channel: http://sprtspod.fox/SUBSCRIBEtoSpeak\n► FOX Bet Live’s YouTube channel: https://foxs.pt/SubscribeFOXBETLIVE\n► Club Shay Shay’s YouTube channel: http://foxs.pt/SubscribeCLUBSHAYSHAY\n► The Skip Bayless Show YouTube channel: http://sprtspod.fox/SUBSCRIBESkipShow\n▶ Titus & Tate's YouTube channel: http://foxs.pt/SubscribeTITUSANDTATE\n► What's Wright? with Nick Wright YouTube channel: http://sprtspod.fox/whatswright/youtube\n▶ The Carton Show’s YouTube channel: http://sprtspod.fox/SubscribeCartonShow\n\nSee more from UNDISPUTED: http://foxs.pt/UNDISPUTEDFoxSports\nLike UNDISPUTED on Facebook: http://foxs.pt/UNDISPUTEDFacebook\nFollow UNDISPUTED on Twitter: http://foxs.pt/UNDISPUTEDTwitter\nFollow UNDISPUTED on Instagram: http://foxs.pt/UNDISPUTEDInstagram\nFollow UNDISPUTED on TikTok: https://www.tiktok.com/@undisputedonfs1?lang=en\n\nFollow Skip Bayless on Twitter: http://foxs.pt/SkipBaylessTwitter\nFollow Shannon Sharpe on Twitter: http://foxs.pt/ShannonSharpeTwitter\n\nAbout Skip and Shannon: UNDISPUTED:\nUNDISPUTED is a daily two-and-a-half hour sports debate show starring Skip Bayless and Shannon Sharpe. Every day, Skip and Shannon will give their unfiltered, incisive, passionate opinions on the biggest sports topics of the day.\n\nDak Prescott throws OT pick-six, Cowboys blow 17-point lead in loss vs. Jaguars | NFL | UNDISPUTED\nhttps://youtu.be/Z8mOxhAjyqQ\n\nSkip and Shannon: UNDISPUTED\nhttps://www.youtube.com/c/UndisputedOnFS1"
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "4NqGcTGriQSXgbbdi4-4bgih5Qw",
+      "id": "GsNkepJioH0",
+      "snippet": {
+        "publishedAt": "2022-12-19T21:00:06Z",
+        "channelId": "UCk56ama_RvUkMzexS8I9SIQ",
+        "title": "I Survived on 1 Emerald for 100 Days",
+        "description": "Ryan Trahan did it with a penny so I did it with an Emerald.\n\nYou can donate to Ryan Trahan's fund raiser either on this video or go check out his. (they're not hard to find, trust me)\n\nTrahan: https://www.youtube.com/watch?v=JEqi3VVLYkg\n\n--------------------------------------\n\nI'm terrible at social media!\nTwitter: @branzytweets\nTwitch: https://www.twitch.tv/branzylive\n\n--------------------------------------",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GsNkepJioH0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GsNkepJioH0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GsNkepJioH0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/GsNkepJioH0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/GsNkepJioH0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Branzy",
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "I Survived on 1 Emerald for 100 Days",
+          "description": "Ryan Trahan did it with a penny so I did it with an Emerald.\n\nYou can donate to Ryan Trahan's fund raiser either on this video or go check out his. (they're not hard to find, trust me)\n\nTrahan: https://www.youtube.com/watch?v=JEqi3VVLYkg\n\n--------------------------------------\n\nI'm terrible at social media!\nTwitter: @branzytweets\nTwitch: https://www.twitch.tv/branzylive\n\n--------------------------------------"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "IGAGkbfuB66FrgQjNf7vmhrNKVw",
+      "id": "-lsFs2615gw",
+      "snippet": {
+        "publishedAt": "2022-12-19T14:00:01Z",
+        "channelId": "UCF9imwPMSGz4Vq1NiTWCC7g",
+        "title": "Mission: Impossible - Dead Reckoning Part One | The Biggest Stunt in Cinema History (Tom Cruise)",
+        "description": "Watch an extended behind the scenes look at the biggest stunt in cinema history. #MissionImpossible- Dead Reckoning is in theatres July 2023.\n\nConnect with #MissionImpossible \n \nInstagram: https://www.instagram.com/missionimpossible/\nTwitter: https://twitter.com/missionfilm/ \nFacebook: https://www.facebook.com/MissionImpossible/ \n\nParamount Pictures Corporation (PPC), a major global producer and distributor of filmed entertainment, is a unit of Viacom (NASDAQ: VIAB, VIA), home to premier global media brands that create compelling television programs, motion pictures, short-form content, apps, games, consumer products, social media experiences, and other entertainment content for audiences in more than 180 countries.\n \nConnect with Paramount Pictures Online:\n\nOfficial Site: http://www.paramount.com/\nTikTok: https://www.tiktok.com/@paramountpics\nInstagram: http://www.instagram.com/ParamountPics\nTwitter: https://twitter.com/paramountpics\nYouTube: https://www.youtube.com/user/Paramount\nFacebook: https://www.facebook.com/Paramount",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-lsFs2615gw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-lsFs2615gw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-lsFs2615gw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-lsFs2615gw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-lsFs2615gw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Paramount Pictures",
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Mission: Impossible - Dead Reckoning Part One | The Biggest Stunt in Cinema History (Tom Cruise)",
+          "description": "Watch an extended behind the scenes look at the biggest stunt in cinema history. #MissionImpossible- Dead Reckoning is in theatres July 2023.\n\nConnect with #MissionImpossible \n \nInstagram: https://www.instagram.com/missionimpossible/\nTwitter: https://twitter.com/missionfilm/ \nFacebook: https://www.facebook.com/MissionImpossible/ \n\nParamount Pictures Corporation (PPC), a major global producer and distributor of filmed entertainment, is a unit of Viacom (NASDAQ: VIAB, VIA), home to premier global media brands that create compelling television programs, motion pictures, short-form content, apps, games, consumer products, social media experiences, and other entertainment content for audiences in more than 180 countries.\n \nConnect with Paramount Pictures Online:\n\nOfficial Site: http://www.paramount.com/\nTikTok: https://www.tiktok.com/@paramountpics\nInstagram: http://www.instagram.com/ParamountPics\nTwitter: https://twitter.com/paramountpics\nYouTube: https://www.youtube.com/user/Paramount\nFacebook: https://www.facebook.com/Paramount"
+        },
+        "defaultAudioLanguage": "en-US"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "8kyIUkRnMQnK6Juh3iOxDUZc2u4",
+      "id": "jVi5p-yyF3c",
+      "snippet": {
+        "publishedAt": "2022-12-20T14:00:32Z",
+        "channelId": "UCMOqf8ab-42UUQIdVoKwjlQ",
+        "title": "How This Bridge Was Rebuilt in 15 Days After Hurricane Ian",
+        "description": "The Sanibel Causeway was rendered completely impassable to vehicles. Less than a month later, it was open to traffic.\nCheck out the Practical Engineering store: https://store.practical.engineering/\n\nWatch on Nebula: https://nebula.tv/videos/practical-engineering-how-this-bridge-was-rebuilt-in-15-days-after-hurricane-ian\n\nErrata: (None yet)\n\nBoth Florida DOT and Superior Construction were contacted for comment on this story. FDOT declined to comment, and Superior Construction did not respond to multiple emails.\n\nBarrier islands are critical to protecting mainland coasts by absorbing wave energy and bearing the brunt of storms. But development on the islands negates that critical purpose. That doesn’t mean the community doesn’t belong there. But it does obligate the planners and engineers involved in rebuilding to be thoughtful about the impacts hurricanes can have and how infrastructure can be made more resilient to them in the future.\n\nPractical Engineering is a YouTube channel about infrastructure and the human-made world around us. It is hosted, written, and produced by Grady Hillhouse. We have new videos posted regularly, so please subscribe for updates. If you enjoyed the video, hit that ‘like’ button, give us a comment, or watch another of our videos!\n\nCONNECT WITH ME\n____________________________________\nWebsite:         http://practical.engineering\nTwitter:           https://twitter.com/HillhouseGrady\nInstagram:     https://www.instagram.com/practicalengineering\nReddit:            https://www.reddit.com/r/PracticalEngineering\nFacebook:      https://www.facebook.com/PracticalEngineerGrady​\nPatreon:         http://patreon.com/PracticalEngineering\n\nSPONSORSHIP INQUIRIES\n____________________________________\nPlease email my agent at practicalengineering@standard.tv\n\nDISCLAIMER\n____________________________________\nThis is not engineering advice. Everything here is for informational and entertainment purposes only. Contact an engineer licensed to practice in your area if you need professional advice or services. All non-licensed clips used for fair use commentary, criticism, and educational purposes.\n\nSPECIAL THANKS\n____________________________________\nStock video and imagery provided by Getty Images and Florida DOT.\nMusic by Epidemic Sound: http://epidemicsound.com/creator\nTonic and Energy by Elexive is licensed under a Creative Commons Attribution License\nSource: https://www.youtube.com/watch?v=U6fBPdu8w9U\nProducer/Writer/Host: Grady Hillhouse\nEditor: Wesley Crump\nProduction Assistant: Josh Lorenz\nScript Editor: Ralph Crewe\nBackground Painting: Josh Welker\nGraphics: Nebula Studios",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jVi5p-yyF3c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jVi5p-yyF3c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jVi5p-yyF3c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jVi5p-yyF3c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jVi5p-yyF3c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Practical Engineering",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "How This Bridge Was Rebuilt in 15 Days After Hurricane Ian",
+          "description": "The Sanibel Causeway was rendered completely impassable to vehicles. Less than a month later, it was open to traffic.\nCheck out the Practical Engineering store: https://store.practical.engineering/\n\nWatch on Nebula: https://nebula.tv/videos/practical-engineering-how-this-bridge-was-rebuilt-in-15-days-after-hurricane-ian\n\nErrata: (None yet)\n\nBoth Florida DOT and Superior Construction were contacted for comment on this story. FDOT declined to comment, and Superior Construction did not respond to multiple emails.\n\nBarrier islands are critical to protecting mainland coasts by absorbing wave energy and bearing the brunt of storms. But development on the islands negates that critical purpose. That doesn’t mean the community doesn’t belong there. But it does obligate the planners and engineers involved in rebuilding to be thoughtful about the impacts hurricanes can have and how infrastructure can be made more resilient to them in the future.\n\nPractical Engineering is a YouTube channel about infrastructure and the human-made world around us. It is hosted, written, and produced by Grady Hillhouse. We have new videos posted regularly, so please subscribe for updates. If you enjoyed the video, hit that ‘like’ button, give us a comment, or watch another of our videos!\n\nCONNECT WITH ME\n____________________________________\nWebsite:         http://practical.engineering\nTwitter:           https://twitter.com/HillhouseGrady\nInstagram:     https://www.instagram.com/practicalengineering\nReddit:            https://www.reddit.com/r/PracticalEngineering\nFacebook:      https://www.facebook.com/PracticalEngineerGrady​\nPatreon:         http://patreon.com/PracticalEngineering\n\nSPONSORSHIP INQUIRIES\n____________________________________\nPlease email my agent at practicalengineering@standard.tv\n\nDISCLAIMER\n____________________________________\nThis is not engineering advice. Everything here is for informational and entertainment purposes only. Contact an engineer licensed to practice in your area if you need professional advice or services. All non-licensed clips used for fair use commentary, criticism, and educational purposes.\n\nSPECIAL THANKS\n____________________________________\nStock video and imagery provided by Getty Images and Florida DOT.\nMusic by Epidemic Sound: http://epidemicsound.com/creator\nTonic and Energy by Elexive is licensed under a Creative Commons Attribution License\nSource: https://www.youtube.com/watch?v=U6fBPdu8w9U\nProducer/Writer/Host: Grady Hillhouse\nEditor: Wesley Crump\nProduction Assistant: Josh Lorenz\nScript Editor: Ralph Crewe\nBackground Painting: Josh Welker\nGraphics: Nebula Studios"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "05nKDo64eJtUnTP7XwABvS6BtIM",
+      "id": "HkvQywg_uZA",
+      "snippet": {
+        "publishedAt": "2022-12-19T04:00:06Z",
+        "channelId": "UC3XTzVzaHQEd30rQbuvCtTQ",
+        "title": "Trash: Last Week Tonight with John Oliver (Web Exclusive)",
+        "description": "John Oliver explores trash and takes care of some unfinished business in the Ohio of Sweden.\n\nConnect with Last Week Tonight online... \n\nSubscribe to the Last Week Tonight YouTube channel for more almost news as it almost happens: www.youtube.com/lastweektonight \n\nFind Last Week Tonight on Facebook like your mom would: www.facebook.com/lastweektonight \n\nFollow us on Twitter for news about jokes and jokes about news: www.twitter.com/lastweektonight \n\nVisit our official site for all that other stuff at once: www.hbo.com/lastweektonight",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HkvQywg_uZA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HkvQywg_uZA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HkvQywg_uZA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HkvQywg_uZA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HkvQywg_uZA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "LastWeekTonight",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Trash: Last Week Tonight with John Oliver (Web Exclusive)",
+          "description": "John Oliver explores trash and takes care of some unfinished business in the Ohio of Sweden.\n\nConnect with Last Week Tonight online... \n\nSubscribe to the Last Week Tonight YouTube channel for more almost news as it almost happens: www.youtube.com/lastweektonight \n\nFind Last Week Tonight on Facebook like your mom would: www.facebook.com/lastweektonight \n\nFollow us on Twitter for news about jokes and jokes about news: www.twitter.com/lastweektonight \n\nVisit our official site for all that other stuff at once: www.hbo.com/lastweektonight"
+        },
+        "defaultAudioLanguage": "en-US"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "K6eEKuWRWHlrusJgUZLd_L0bFF4",
+      "id": "xuYoQRnUDxM",
+      "snippet": {
+        "publishedAt": "2022-12-19T14:29:25Z",
+        "channelId": "UC7_VH_kj0aD9vhuHmFheUYQ",
+        "title": "Woman brings home an 'old' shelter dog. Then discovers his real age.",
+        "description": "Woman brings home an 'old' shelter dog. Then discovers his real age.\n\nCheck out Leo's story: https://www.instagram.com/deannag420/\n\n#dogs #bekind #animals\n\n---------------------------\n\nYou Love Animal Videos? \nSubscribe To Us Here: https://www.youtube.com/user/geobeats...\n\nWatch Other Popular Videos:\nWild crow visits woman daily to play games - https://youtu.be/l_jGNTXwAAM\nThis man raised an opossum. Now he thinks they are smarter than dogs - https://youtu.be/Wz7GqNCkctU\nEvery sunrise, this bird visits a woman for cuddles - https://youtu.be/1QuQBnv3R_Y\nBlack cat wasn't getting adopted. Then this woman took him home - https://youtu.be/BtTygt98-1w\n\n\nFollow Us On Other Platforms:\nTwitter: https://twitter.com/geobeats\nFacebook: https://www.facebook.com/GeoBeatsAnimals\nInstagram: https://www.instagram.com/geobeatsani...\n\n\nAbout GeoBeats Animals\nGeoBeats is a US-based media company focused on telling inspiring animal stories about animals from around the world. Our goal is to make people fall in love with them and promote compassion and kindness.\n\nOn our channel, we feature exciting animal videos. You can watch funny cat videos, funny dog videos, cat and dog videos, animal stories, rescue animal videos, adopted animal videos and a lot more.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xuYoQRnUDxM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xuYoQRnUDxM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xuYoQRnUDxM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xuYoQRnUDxM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xuYoQRnUDxM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GeoBeats Animals",
+        "categoryId": "15",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Woman brings home an 'old' shelter dog. Then discovers his real age.",
+          "description": "Woman brings home an 'old' shelter dog. Then discovers his real age.\n\nCheck out Leo's story: https://www.instagram.com/deannag420/\n\n#dogs #bekind #animals\n\n---------------------------\n\nYou Love Animal Videos? \nSubscribe To Us Here: https://www.youtube.com/user/geobeats...\n\nWatch Other Popular Videos:\nWild crow visits woman daily to play games - https://youtu.be/l_jGNTXwAAM\nThis man raised an opossum. Now he thinks they are smarter than dogs - https://youtu.be/Wz7GqNCkctU\nEvery sunrise, this bird visits a woman for cuddles - https://youtu.be/1QuQBnv3R_Y\nBlack cat wasn't getting adopted. Then this woman took him home - https://youtu.be/BtTygt98-1w\n\n\nFollow Us On Other Platforms:\nTwitter: https://twitter.com/geobeats\nFacebook: https://www.facebook.com/GeoBeatsAnimals\nInstagram: https://www.instagram.com/geobeatsani...\n\n\nAbout GeoBeats Animals\nGeoBeats is a US-based media company focused on telling inspiring animal stories about animals from around the world. Our goal is to make people fall in love with them and promote compassion and kindness.\n\nOn our channel, we feature exciting animal videos. You can watch funny cat videos, funny dog videos, cat and dog videos, animal stories, rescue animal videos, adopted animal videos and a lot more."
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "5k0ZbXBRIs6mhX3vCZ_N92RMCGs",
+      "id": "bK6ldnjE3Y0",
+      "snippet": {
+        "publishedAt": "2022-12-19T00:29:01Z",
+        "channelId": "UCq0OueAsdxH6b8nyAspwViw",
+        "title": "Oppenheimer | Official Trailer",
+        "description": "Oppenheimer - Only In Theaters 7 21 23\n\nWritten and directed by Christopher Nolan, Oppenheimer is an IMAX®-shot epic thriller that thrusts audiences into the pulse-pounding paradox of the enigmatic man who must risk destroying the world in order to save it. \n \nThe film stars Cillian Murphy as J. Robert Oppenheimer and Emily Blunt as his wife, biologist and botanist Katherine “Kitty” Oppenheimer. Oscar® winner Matt Damon portrays General Leslie Groves Jr., director of the Manhattan Project, and Robert Downey, Jr. plays Lewis Strauss, a founding commissioner of the U.S. Atomic Energy Commission. \n \nAcademy Award® nominee Florence Pugh plays psychiatrist Jean Tatlock, Benny Safdie plays theoretical physicist Edward Teller, Michael Angarano plays Robert Serber and Josh Hartnett plays pioneering American nuclear scientist Ernest Lawrence.\n \nOppenheimer also stars Oscar® winner Rami Malek and reunites Nolan with eight-time Oscar® nominated actor, writer and filmmaker Kenneth Branagh. \n \nThe cast includes Dane DeHaan (Valerian and the City of a Thousand Planets), Dylan Arnold (Halloween franchise), David Krumholtz (The Ballad of Buster Scruggs), Alden Ehrenreich (Solo: A Star Wars Story) and Matthew Modine (The Dark Knight Rises). \n \nThe film is based on the Pulitzer Prize-winning book American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer by Kai Bird and the late Martin J. Sherwin. The film is produced by Emma Thomas, Atlas Entertainment’s Charles Roven and Christopher Nolan. \n\nOppenheimer is filmed in a combination of IMAX® 65mm and 65mm large-format film photography including, for the first time ever, sections in IMAX® black and white analogue photography. \n\nNolan’s films, including Tenet, Dunkirk, Interstellar, Inception and The Dark Knight trilogy, have earned more than $5 billion at the global box office and have been awarded 11 Oscars and 36 nominations, including two Best Picture nominations. \n\nSocial Handles:\nIG: https://www.instagram.com/oppenheimermovie    \nTW: https://www.twitter.com/@oppenheimerfilm  \nFB: https://www.facebook.com/OppenheimerMovie \nReddit: https://www.reddit.com/user/OppenheimerMovie/\nTwitch: https://www.twitch.tv/oppenheimermovie\nWebsite: https://www.OppenheimerMovie.com   \n#Oppenheimer",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bK6ldnjE3Y0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bK6ldnjE3Y0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bK6ldnjE3Y0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bK6ldnjE3Y0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bK6ldnjE3Y0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Universal Pictures",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Oppenheimer | Official Trailer",
+          "description": "Oppenheimer - Only In Theaters 7 21 23\n\nWritten and directed by Christopher Nolan, Oppenheimer is an IMAX®-shot epic thriller that thrusts audiences into the pulse-pounding paradox of the enigmatic man who must risk destroying the world in order to save it. \n \nThe film stars Cillian Murphy as J. Robert Oppenheimer and Emily Blunt as his wife, biologist and botanist Katherine “Kitty” Oppenheimer. Oscar® winner Matt Damon portrays General Leslie Groves Jr., director of the Manhattan Project, and Robert Downey, Jr. plays Lewis Strauss, a founding commissioner of the U.S. Atomic Energy Commission. \n \nAcademy Award® nominee Florence Pugh plays psychiatrist Jean Tatlock, Benny Safdie plays theoretical physicist Edward Teller, Michael Angarano plays Robert Serber and Josh Hartnett plays pioneering American nuclear scientist Ernest Lawrence.\n \nOppenheimer also stars Oscar® winner Rami Malek and reunites Nolan with eight-time Oscar® nominated actor, writer and filmmaker Kenneth Branagh. \n \nThe cast includes Dane DeHaan (Valerian and the City of a Thousand Planets), Dylan Arnold (Halloween franchise), David Krumholtz (The Ballad of Buster Scruggs), Alden Ehrenreich (Solo: A Star Wars Story) and Matthew Modine (The Dark Knight Rises). \n \nThe film is based on the Pulitzer Prize-winning book American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer by Kai Bird and the late Martin J. Sherwin. The film is produced by Emma Thomas, Atlas Entertainment’s Charles Roven and Christopher Nolan. \n\nOppenheimer is filmed in a combination of IMAX® 65mm and 65mm large-format film photography including, for the first time ever, sections in IMAX® black and white analogue photography. \n\nNolan’s films, including Tenet, Dunkirk, Interstellar, Inception and The Dark Knight trilogy, have earned more than $5 billion at the global box office and have been awarded 11 Oscars and 36 nominations, including two Best Picture nominations. \n\nSocial Handles:\nIG: https://www.instagram.com/oppenheimermovie    \nTW: https://www.twitter.com/@oppenheimerfilm  \nFB: https://www.facebook.com/OppenheimerMovie \nReddit: https://www.reddit.com/user/OppenheimerMovie/\nTwitch: https://www.twitch.tv/oppenheimermovie\nWebsite: https://www.OppenheimerMovie.com   \n#Oppenheimer"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "FvgMWHPeUR6Rqa8XTM2kwqjPSKg",
+      "id": "uyYAIAblNI8",
+      "snippet": {
+        "publishedAt": "2022-12-19T23:13:39Z",
+        "channelId": "UCIvbV-a0t2tU6LsKSZz7r-w",
+        "title": "POPULAR Video Game Characters in Lego...",
+        "description": "Let's collect Brick-cards together and unlock the donation at https://lootboy.page.link/SacredBricks\n\nToday I tried to recreate famous video game characters using Lego parts and they turned out great!\n\nfriends in the video: \n@GenericStud \n@TDBRICKS \n@Brick_Science \n@TheB3 \n@TiagoCatarino \n\nthank you for watching, you are awesome :)\n\nWhat should I do next?\n\nInspiration:",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uyYAIAblNI8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uyYAIAblNI8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uyYAIAblNI8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uyYAIAblNI8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uyYAIAblNI8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SacredBricks",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "POPULAR Video Game Characters in Lego...",
+          "description": "Let's collect Brick-cards together and unlock the donation at https://lootboy.page.link/SacredBricks\n\nToday I tried to recreate famous video game characters using Lego parts and they turned out great!\n\nfriends in the video: \n@GenericStud \n@TDBRICKS \n@Brick_Science \n@TheB3 \n@TiagoCatarino \n\nthank you for watching, you are awesome :)\n\nWhat should I do next?\n\nInspiration:"
+        },
+        "defaultAudioLanguage": "en-US"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "dMgNgglymfM6jdqprcnDcSECikE",
+      "id": "Wif1EAgEQKI",
+      "snippet": {
+        "publishedAt": "2022-12-19T16:00:27Z",
+        "channelId": "UCBa659QWEk1AI4Tg--mrJ2A",
+        "title": "I was wrong (and so was everyone)",
+        "description": "Did 18th century firefighters really let buildings burn? Sources below. ■ AD: 👨‍💻 NordVPN's best deal is here: https://nordvpn.com/tomscott - with a 30-day money-back guarantee.\n\nHere's the full, thoroughly referenced report: https://www.tomscott.com/corrections/firemarks/\n\nThanks to historical consultant Paul J Sillitoe: http://www.linkedin.com/in/paul-sillitoe-avi-consultants\n\nThanks to Afonso Noronha for the email sparking this whole discussion! All the corrections on this channel can be found here: https://www.tomscott.com/corrections/\n\nThe original video, now deprecated and unlisted: https://www.youtube.com/watch?v=sehyLDPeB6M\n\nI'm at https://tomscott.com\r\non Twitter at https://twitter.com/tomscott\r\non Facebook at https://facebook.com/tomscott\r\nand on Instagram as tomscottgo",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Wif1EAgEQKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Wif1EAgEQKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Wif1EAgEQKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Wif1EAgEQKI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Wif1EAgEQKI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Tom Scott",
+        "tags": ["tom scott", "tomscott"],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "I was wrong (and so was everyone)",
+          "description": "Did 18th century firefighters really let buildings burn? Sources below. ■ AD: 👨‍💻 NordVPN's best deal is here: https://nordvpn.com/tomscott - with a 30-day money-back guarantee.\n\nHere's the full, thoroughly referenced report: https://www.tomscott.com/corrections/firemarks/\n\nThanks to historical consultant Paul J Sillitoe: http://www.linkedin.com/in/paul-sillitoe-avi-consultants\n\nThanks to Afonso Noronha for the email sparking this whole discussion! All the corrections on this channel can be found here: https://www.tomscott.com/corrections/\n\nThe original video, now deprecated and unlisted: https://www.youtube.com/watch?v=sehyLDPeB6M\n\nI'm at https://tomscott.com\r\non Twitter at https://twitter.com/tomscott\r\non Facebook at https://facebook.com/tomscott\r\nand on Instagram as tomscottgo"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Yghq1-sBJOeWAtkm6x-oXuYD-r0",
+      "id": "pSUydWEqKwE",
+      "snippet": {
+        "publishedAt": "2022-12-19T09:00:03Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Ditto' Official MV (side A)",
+        "description": "Producer: MIN HEE JIN\nMusic Video Director: Wooseok Shin (DOLPHINERS FILM)\n\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_OMG #NewJeans_Ditto\n#NewJeans_of_Winter\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": ["HYBE", "HYBE LABELS", "하이브", "하이브레이블즈"],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Ditto' Official MV (side A)",
+          "description": "Producer: MIN HEE JIN\nMusic Video Director: Wooseok Shin (DOLPHINERS FILM)\n\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_OMG #NewJeans_Ditto\n#NewJeans_of_Winter\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "FytZN1wlxu3215cEKqNfpTkvMN8",
+      "id": "5ztN90jb9wM",
+      "snippet": {
+        "publishedAt": "2022-12-19T14:00:04Z",
+        "channelId": "UCIrgJInjLS2BhlHOMDW7v0g",
+        "title": "Streaming in 2023 | Feels Like Home | Disney+",
+        "description": "Take it from the God of Mischief himself: We can’t wait for 2023 on #DisneyPlus. 🙌 #DisneyPlusFeelsLikeHome\n\nFor more updates, subscribe to Disney, Pixar, Marvel, Star Wars, and National Geographic.\n \nDisney+ is the streaming home of Disney, Pixar, Marvel, Star Wars, National Geographic, and more. From new releases to your favorite classics and exclusive Originals, there's something for everyone.  \n \nFollow Disney+ for the latest:\nDisney+: https://disneyplus.com/\nInstagram: https://www.instagram.com/DisneyPlus/\nTwitter: https://www.twitter.com/DisneyPlus/\nFacebook: https://www.facebook.com/DisneyPlus/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5ztN90jb9wM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5ztN90jb9wM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5ztN90jb9wM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5ztN90jb9wM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Disney Plus",
+        "tags": ["Disney+", "Disney Plus", "Disney", "streaming"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Streaming in 2023 | Feels Like Home | Disney+",
+          "description": "Take it from the God of Mischief himself: We can’t wait for 2023 on #DisneyPlus. 🙌 #DisneyPlusFeelsLikeHome\n\nFor more updates, subscribe to Disney, Pixar, Marvel, Star Wars, and National Geographic.\n \nDisney+ is the streaming home of Disney, Pixar, Marvel, Star Wars, National Geographic, and more. From new releases to your favorite classics and exclusive Originals, there's something for everyone.  \n \nFollow Disney+ for the latest:\nDisney+: https://disneyplus.com/\nInstagram: https://www.instagram.com/DisneyPlus/\nTwitter: https://www.twitter.com/DisneyPlus/\nFacebook: https://www.facebook.com/DisneyPlus/"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "YlwZfwIGWmV8WyRb_ghGOSp269Q",
+      "id": "3hJC4dqM6xc",
+      "snippet": {
+        "publishedAt": "2022-12-19T20:31:49Z",
+        "channelId": "UCqMtxjKnR7ySbEZSs2N-v0Q",
+        "title": "Rich Eisen Reacts to the “Craziest Weekend I’ve Ever Seen in the History of the NFL”",
+        "description": "Rich Eisen breaks down what he calls “the craziest weekend I’ve ever seen in the history of the NFL” that included incredible comebacks, overtime thrillers and probably the most boneheaded play in league history. \n\nTune in to the Emmy-nominated Rich Eisen Show live for FREE on The Roku Channel at https://go.roku.com/thericheisenshow and also streaming on Audacy, Sirius channel 218 and XM channel 202 weekdays from 12-3 PM ET! \n\nShowcasing insightful sports expertise with an offbeat mix of humor and pop culture, The Rich Eisen Show attracts the most recognizable names in sports and entertainment. \n\nSubscribe here to keep up with the internet's best sports and pop culture commentary, interviews, and much more:  https://bit.ly/2VjWSBC  \n\nFOLLOW US HERE: https://www.instagram.com/richeisenshow/ https://www.twitter.com/RichEisenShow https://www.facebook.com/RichEisenShow https://www.audacy.com/richeisen/listen \n\nThanks to our friends at Grabyo for supporting our live production and editing needs. Truly a game changer for what we're trying to accomplish here at the Rich Eisen Show. You can check out Grabyo and their suite of offerings here: https://bit.ly/3aac366 \n\n#richeisenshow #nfl #hailmoron",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3hJC4dqM6xc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3hJC4dqM6xc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3hJC4dqM6xc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3hJC4dqM6xc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3hJC4dqM6xc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Rich Eisen Show",
+        "tags": [
+          "Rich Eisen",
+          "Rich Eisen Show",
+          "sports",
+          "NFL",
+          "football",
+          "college football",
+          "MLB",
+          "baseball",
+          "pop culture",
+          "Roku",
+          "NFL Network",
+          "Chris Brockman",
+          "TJ Jefferson",
+          "Del Tufo",
+          "Super Bowl",
+          "NFL Draft",
+          "hail moron",
+          "vikings",
+          "Crazy NFL Weekend",
+          "Giants",
+          "Commanders",
+          "Trevor Lawrence",
+          "Jaguars",
+          "Dallas Cowboys",
+          "Chargers",
+          "Justin Herbert",
+          "Tennessee Titans",
+          "Kayvon Thibodeaux",
+          "Vikings",
+          "Buffalo Bills",
+          "Miami Dolphins",
+          "Tua",
+          "Chiefs",
+          "Jerick McKinnon",
+          "Raiders",
+          "Patriots",
+          "Belichick",
+          "Jakobi Meyers",
+          "Mac Jones",
+          "Chandler Jones"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Rich Eisen Reacts to the “Craziest Weekend I’ve Ever Seen in the History of the NFL”",
+          "description": "Rich Eisen breaks down what he calls “the craziest weekend I’ve ever seen in the history of the NFL” that included incredible comebacks, overtime thrillers and probably the most boneheaded play in league history. \n\nTune in to the Emmy-nominated Rich Eisen Show live for FREE on The Roku Channel at https://go.roku.com/thericheisenshow and also streaming on Audacy, Sirius channel 218 and XM channel 202 weekdays from 12-3 PM ET! \n\nShowcasing insightful sports expertise with an offbeat mix of humor and pop culture, The Rich Eisen Show attracts the most recognizable names in sports and entertainment. \n\nSubscribe here to keep up with the internet's best sports and pop culture commentary, interviews, and much more:  https://bit.ly/2VjWSBC  \n\nFOLLOW US HERE: https://www.instagram.com/richeisenshow/ https://www.twitter.com/RichEisenShow https://www.facebook.com/RichEisenShow https://www.audacy.com/richeisen/listen \n\nThanks to our friends at Grabyo for supporting our live production and editing needs. Truly a game changer for what we're trying to accomplish here at the Rich Eisen Show. You can check out Grabyo and their suite of offerings here: https://bit.ly/3aac366 \n\n#richeisenshow #nfl #hailmoron"
+        },
+        "defaultAudioLanguage": "en-US"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "XHR2-phaqa_JsPQ9mAThhe_oDxM",
+      "id": "H7eFj_fZpho",
+      "snippet": {
+        "publishedAt": "2022-12-19T14:00:08Z",
+        "channelId": "UCB_qr75-ydFVKSF9Dmo6izg",
+        "title": "F1 Grid Does Secret Santa 2022!",
+        "description": "It's F1 Secret Santa time! What did the F1 drivers give each other for Christmas this year?\n\nFor more F1® videos, visit https://www.Formula1.com\n\nFollow F1®:\nhttps://www.instagram.com/F1\nhttps://www.facebook.com/Formula1/\nhttps://www.twitter.com/F1\nhttps://www.twitch.tv/formula1\nhttps://www.tiktok.com/@f1\n\n#F1",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H7eFj_fZpho/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H7eFj_fZpho/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H7eFj_fZpho/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H7eFj_fZpho/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/H7eFj_fZpho/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "FORMULA 1",
+        "tags": [
+          "F1",
+          "Formula One",
+          "Formula 1",
+          "Sports",
+          "Sport",
+          "Action",
+          "GP",
+          "Grand Prix",
+          "Auto Racing",
+          "Motor Racing",
+          "F1 Secret Santa",
+          "Secret Santa",
+          "Secret Santa F1",
+          "F1 Christmas",
+          "Christmas F1"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "F1 Grid Does Secret Santa 2022!",
+          "description": "It's F1 Secret Santa time! What did the F1 drivers give each other for Christmas this year?\n\nFor more F1® videos, visit https://www.Formula1.com\n\nFollow F1®:\nhttps://www.instagram.com/F1\nhttps://www.facebook.com/Formula1/\nhttps://www.twitter.com/F1\nhttps://www.twitch.tv/formula1\nhttps://www.tiktok.com/@f1\n\n#F1"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "1PYhfxHKU7Pw-wFpFx3BR5Eo1yE",
+      "id": "d5ibrH8vAP4",
+      "snippet": {
+        "publishedAt": "2022-12-19T18:00:11Z",
+        "channelId": "UCXq2nALoSbxLMehAvYTxt_A",
+        "title": "The BEST SELLING toys for Christmas every year",
+        "description": "And if you forgot which years were which, Dan has some handy Rush album release dates for context!\n\nClick to SUBSCRIBE ► http://bit.ly/TheGrumps\nMERCH!! ► http://gamegrumps.com/merch\nOur email list! ► http://bit.ly/GrumpsStuffEmail\n*********************************************\nWe have NEW MERCH every FRIDAY! \nVisit our WEBSITE every FRIDAY to check out the NEW items!\n►►► http://gamegrumps.com/merch\n*********************************************\nFACEBOOK ► https://www.facebook.com/GameGrumps\nTWITTER ► https://www.twitter.com/gamegrumps\nINSTAGRAM ► https://www.instagram.com/gamegrumps/\nWEBSITE ► http://gamegrumps.com\n*********************************************\nGame Grumps are:\nArin ► http://www.youtube.com/Egoraptor\nDanny ► http://www.youtube.com/NinjaSexParty\n\n#TheGrumps #ChristmasToys #DissectMeElmo",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/d5ibrH8vAP4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/d5ibrH8vAP4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/d5ibrH8vAP4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/d5ibrH8vAP4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/d5ibrH8vAP4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Grumps",
+        "tags": [
+          "10 minute power hour",
+          "ten minute power hour",
+          "game grumps",
+          "egoraptor",
+          "game grumps live action",
+          "arin",
+          "funny",
+          "danny",
+          "game grumps power hour",
+          "gamegrumps",
+          "arin and dan",
+          "10mph",
+          "tmph",
+          "game grumps real life",
+          "grumps power hour"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "The BEST SELLING toys for Christmas every year",
+          "description": "And if you forgot which years were which, Dan has some handy Rush album release dates for context!\n\nClick to SUBSCRIBE ► http://bit.ly/TheGrumps\nMERCH!! ► http://gamegrumps.com/merch\nOur email list! ► http://bit.ly/GrumpsStuffEmail\n*********************************************\nWe have NEW MERCH every FRIDAY! \nVisit our WEBSITE every FRIDAY to check out the NEW items!\n►►► http://gamegrumps.com/merch\n*********************************************\nFACEBOOK ► https://www.facebook.com/GameGrumps\nTWITTER ► https://www.twitter.com/gamegrumps\nINSTAGRAM ► https://www.instagram.com/gamegrumps/\nWEBSITE ► http://gamegrumps.com\n*********************************************\nGame Grumps are:\nArin ► http://www.youtube.com/Egoraptor\nDanny ► http://www.youtube.com/NinjaSexParty\n\n#TheGrumps #ChristmasToys #DissectMeElmo"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "00TdmUsu3k8_9aPsHVr35_b96UY",
+      "id": "BtQm1SvhYdk",
+      "snippet": {
+        "publishedAt": "2022-12-20T12:33:53Z",
+        "channelId": "UCPWi2BNjgIM1MmpC0hyu1ZA",
+        "title": "Lionel Messi Arrives In Argentina As The World Champion",
+        "description": "Lionel Messi Arrives In Argentina As The World Champion\n\n#lionelmessi #argentina #qatar2022 \n\nFad3nHD Production\n\nLionel Messi and team arrive in Buenos Aires after World Cup final.\n\nThanks for watching!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BtQm1SvhYdk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BtQm1SvhYdk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BtQm1SvhYdk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BtQm1SvhYdk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BtQm1SvhYdk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fad3nHD",
+        "tags": [
+          "Lionel Messi",
+          "Messi",
+          "Messi World Cup 2022",
+          "Messi Celebration",
+          "Lionel Messi Celebrates World Cup",
+          "Argentina Celebration World Cup 2022",
+          "Argentina France",
+          "Messi Lifts The Trophy",
+          "Messi World Cup Trophy",
+          "Argentina Wins The World Cup",
+          "Messi Wins The World Cup",
+          "Lionel Messi 2022",
+          "World Cup 2022",
+          "Fad3nHD",
+          "Leo Messi",
+          "Lionel Messi World Cup",
+          "Lionel Messi - Celebration After Final",
+          "Messi Reaction After World Cup Final",
+          "Lionel Messi Arrives In Argentina",
+          "Argentina Celebration Buenos Aires"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Lionel Messi Arrives In Argentina As The World Champion",
+          "description": "Lionel Messi Arrives In Argentina As The World Champion\n\n#lionelmessi #argentina #qatar2022 \n\nFad3nHD Production\n\nLionel Messi and team arrive in Buenos Aires after World Cup final.\n\nThanks for watching!"
+        },
+        "defaultAudioLanguage": "zxx"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "_FHOZ8tACFvaFkVHzlXlIIJcPf0",
+      "id": "WttKbuWfFIQ",
+      "snippet": {
+        "publishedAt": "2022-12-19T18:54:08Z",
+        "channelId": "UCBBsPuUY-8UwkSim4zLXp1w",
+        "title": "2 Feet Of Snow Is Coming Before Christmas",
+        "description": "Get your official Ryan Hall, Y'all merch here! https://shopryanhall.com/\n\nIn this video we are talking about the massive cold air blast & potential blizzard. \n\n#weatherchannel #ryanhall #ryanhallyall\n\nOFFICIAL WEATHER MERCH: https://shopryanhall.com/\n\nCheck out the StormSeekers discord server!\nhttps://discord.gg/ryanhallyall\n\nFollow me on these things:\n\nhttps://www.facebook.com/ryanhallyall\nhttps://twitter.com/ryanhallyall\nhttps://www.instagram.com/ryanhallyall/\nhttps://www.tiktok.com/@ryanhallyall\nhttps://www.twitch.tv/ryanhallyall\n\nOFFICIAL WEBSITE: https://ryanhallyall.com/\n\nBUSINESS INQUIRIES: info@ryanhallyall.com\n\nSend us something in the mail!\nPO Box 2668\nPikeville, KY 41501\n\nPlease refer to your local National Weather Service office to get the most reliable and up to date weather information as possible.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WttKbuWfFIQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WttKbuWfFIQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WttKbuWfFIQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WttKbuWfFIQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WttKbuWfFIQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Ryan Hall, Y'all XTRA",
+        "tags": [
+          "ryan hall",
+          "ryan hall yall",
+          "ryanhallyall",
+          "yall",
+          "weather",
+          "weather forecast",
+          "tornado",
+          "hurricane",
+          "snow",
+          "blizzard",
+          "meteorologist",
+          "meteorology",
+          "weather channel"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "2 Feet Of Snow Is Coming Before Christmas",
+          "description": "Get your official Ryan Hall, Y'all merch here! https://shopryanhall.com/\n\nIn this video we are talking about the massive cold air blast & potential blizzard. \n\n#weatherchannel #ryanhall #ryanhallyall\n\nOFFICIAL WEATHER MERCH: https://shopryanhall.com/\n\nCheck out the StormSeekers discord server!\nhttps://discord.gg/ryanhallyall\n\nFollow me on these things:\n\nhttps://www.facebook.com/ryanhallyall\nhttps://twitter.com/ryanhallyall\nhttps://www.instagram.com/ryanhallyall/\nhttps://www.tiktok.com/@ryanhallyall\nhttps://www.twitch.tv/ryanhallyall\n\nOFFICIAL WEBSITE: https://ryanhallyall.com/\n\nBUSINESS INQUIRIES: info@ryanhallyall.com\n\nSend us something in the mail!\nPO Box 2668\nPikeville, KY 41501\n\nPlease refer to your local National Weather Service office to get the most reliable and up to date weather information as possible."
+        },
+        "defaultAudioLanguage": "en-US"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "X2KZ6iCaSWTXpeyacHnLyFGElkE",
+      "id": "YepLtpG-q7A",
+      "snippet": {
+        "publishedAt": "2022-12-20T04:17:14Z",
+        "channelId": "UCSy3TvvwAV12MD0rLsHyClQ",
+        "title": "KO and Rollins Take Down The Bloodline; Scare off Sami | WWE Raw Highlights 12/19/22 | WWE on USA",
+        "description": "Owens and Rollins get the win as Sami shows up too late to help The Bloodline. WWE Raw Highlights 12/19/22. Watch WWE Raw Monday nights at 8/7c on USA Network. WWE now streaming on Peacock.    \n\n►► SUBSCRIBE: https://usanet.tv/WWEonUSA-Sub\n►► WATCH FULL MATCHES NOW: https://usa.app.link/StreamWWE\n►► GET THE LATEST WWE NEWS: https://usanet.tv/GetMoreWWE                                                                       \n►► STREAM NOW ON PEACOCK: https://pck.tv/3s4aWyr \n►► VISIT USA’S OFFICIAL SITE: http://usanet.tv/USA_Website \n#WWERaw #highlight #RawHighlights\n\nAbout WWE Raw: \nWWE superstars invade your living room every Monday night as part of the longest-running episodic television program on cable TV. Watch new episodes of WWE Monday Night Raw Mondays at 8/7c on USA Network. WWE now streaming on Peacock.  \n\nAbout WWE on USA:\nUSA Network has been the home of WWE programming for decades, featuring spectacular live television with WWE Raw and NXT 2.0. RK-Bro (Randy Orton and Riddle), Seth Rollins, Edge, Becky Lynch, Bianca Belair, and other superstars of professional wrestling square off in the ring and behind the scenes. The big muscles are matched by the oversized personalities and feuds. If it's WWE Raw, it must be Monday. The future of WWE has arrived and it's on WWE NXT 2.0! The next generation of WWE athletes—including Mandy Rose, Johnny Gargano, and Raquel González, and Tomasso Ciampa—are mentored by popular WWE superstars as they battle their way to fame. It’s ALL about the action.\n\nGet More WWE: \nStream Now on Peacock: https://pck.tv/3s4aWyr \nVisit USA's Official Site: http://usanet.tv/USA_Website  \nWatch USA Full Episodes Here: https://usa.app.link/WatchUSA\nLike USA on Facebook: http://usanet.tv/USA_Facebook   \nFollow USA on Twitter: http://usanet.tv/USA_Twitter   \nFollow USA on Instagram: http://usanet.tv/USA_Instagram",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YepLtpG-q7A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YepLtpG-q7A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YepLtpG-q7A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YepLtpG-q7A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YepLtpG-q7A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "WWE on USA",
+        "tags": [
+          "WWE",
+          "WWE Raw",
+          "WWE Raw Highlights",
+          "WWE Raw Highlights Today",
+          "WWE Raw Highlights This Week",
+          "WWE Raw Highlights Top 10",
+          "Monday Night Raw",
+          "WWE Monday Night Raw Results",
+          "WWE Raw Full Show",
+          "WWE Raw Full Match",
+          "Kevin Owens",
+          "Seth Rollins",
+          "Austin Theory",
+          "Sami Zayn",
+          "Sami Uso",
+          "The Bloodline",
+          "The Usos",
+          "Roman Reigns"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "KO and Rollins Take Down The Bloodline; Scare off Sami | WWE Raw Highlights 12/19/22 | WWE on USA",
+          "description": "Owens and Rollins get the win as Sami shows up too late to help The Bloodline. WWE Raw Highlights 12/19/22. Watch WWE Raw Monday nights at 8/7c on USA Network. WWE now streaming on Peacock.    \n\n►► SUBSCRIBE: https://usanet.tv/WWEonUSA-Sub\n►► WATCH FULL MATCHES NOW: https://usa.app.link/StreamWWE\n►► GET THE LATEST WWE NEWS: https://usanet.tv/GetMoreWWE                                                                       \n►► STREAM NOW ON PEACOCK: https://pck.tv/3s4aWyr \n►► VISIT USA’S OFFICIAL SITE: http://usanet.tv/USA_Website \n#WWERaw #highlight #RawHighlights\n\nAbout WWE Raw: \nWWE superstars invade your living room every Monday night as part of the longest-running episodic television program on cable TV. Watch new episodes of WWE Monday Night Raw Mondays at 8/7c on USA Network. WWE now streaming on Peacock.  \n\nAbout WWE on USA:\nUSA Network has been the home of WWE programming for decades, featuring spectacular live television with WWE Raw and NXT 2.0. RK-Bro (Randy Orton and Riddle), Seth Rollins, Edge, Becky Lynch, Bianca Belair, and other superstars of professional wrestling square off in the ring and behind the scenes. The big muscles are matched by the oversized personalities and feuds. If it's WWE Raw, it must be Monday. The future of WWE has arrived and it's on WWE NXT 2.0! The next generation of WWE athletes—including Mandy Rose, Johnny Gargano, and Raquel González, and Tomasso Ciampa—are mentored by popular WWE superstars as they battle their way to fame. It’s ALL about the action.\n\nGet More WWE: \nStream Now on Peacock: https://pck.tv/3s4aWyr \nVisit USA's Official Site: http://usanet.tv/USA_Website  \nWatch USA Full Episodes Here: https://usa.app.link/WatchUSA\nLike USA on Facebook: http://usanet.tv/USA_Facebook   \nFollow USA on Twitter: http://usanet.tv/USA_Twitter   \nFollow USA on Instagram: http://usanet.tv/USA_Instagram"
+        }
+      }
+    }
+  ],
+  "nextPageToken": "CBkQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 25
+  }
+}
