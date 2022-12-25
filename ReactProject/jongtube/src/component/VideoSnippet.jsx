@@ -15,7 +15,7 @@ export default function VideoSnippet({ id, snippet, type }) {
     }
   };
   return (
-    <span className={getCSS(type)}>
+    <span className={`${getCSS(type)} + hover:cursor-pointer`}>
       <img
         className='w-full'
         alt='videoThumbnail'
