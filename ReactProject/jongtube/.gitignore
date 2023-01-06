@@ -10,6 +10,7 @@
 
 # production
 /build
+/youtube-final
 
 # misc
 .DS_Store
