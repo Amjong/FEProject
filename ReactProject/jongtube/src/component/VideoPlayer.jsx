@@ -16,6 +16,6 @@ export default function VideoPlayer({ videoID }) {
         setVideoHTML(tempString);
       });
   };
-  useEffect(fetchingVideo, []);
+  useEffect(fetchingVideo, [videoID]);
   return <div dangerouslySetInnerHTML={{ __html: videoHTML }}></div>;
 }

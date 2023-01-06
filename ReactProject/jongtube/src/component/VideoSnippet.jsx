@@ -5,7 +5,7 @@ import { format } from 'timeago.js';
 export default function VideoSnippet({ id, snippet, type }) {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate(`/watch/${id}`);
+    navigate(`/JongTube/watch/${id}`);
   };
   const getCSS = (type) => {
     if (type === 'related') {

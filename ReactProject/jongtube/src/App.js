@@ -7,7 +7,8 @@ import Watch from './pages/Watch';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    basename: '/JongTube',
+    path: '/JongTube',
     element: <Root></Root>,
     children: [
       {
@@ -15,11 +16,11 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: '/search/:keyword',
+        path: '/JongTube/search/:keyword',
         element: <Search></Search>,
       },
       {
-        path: '/watch/:videoID',
+        path: '/JongTube/watch/:videoID',
         element: <Watch></Watch>,
       },
     ],

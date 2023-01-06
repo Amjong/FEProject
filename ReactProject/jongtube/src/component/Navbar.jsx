@@ -8,7 +8,7 @@ export default function Navbar() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setText('');
-    navigate(`/search/${text}`);
+    navigate(`/JongTube/search/${text}`);
   };
   const handleChange = (e) => {
     setText(e.target.value);
@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
       <div className='flex hover:cursor-pointer'>
-        <Link to='/'>
+        <Link to='/JongTube'>
           <span className='pl-0 ml-0'>
             <FaYoutube className='pl-1 w-10 h-10 inline text-red-600'></FaYoutube>
             <span className='font-bold text-white pr-10 leading-9 pl-1 hover:pointer-events-auto'>

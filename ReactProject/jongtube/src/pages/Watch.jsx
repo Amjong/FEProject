@@ -36,7 +36,7 @@ export default function Watch() {
   useEffect(() => {
     fetchingVideo();
     fetchingChannel();
-  }, []);
+  }, [videoID]);
   return (
     <div className='flex flex-wrap sm:flex-nowrap'>
       <div
