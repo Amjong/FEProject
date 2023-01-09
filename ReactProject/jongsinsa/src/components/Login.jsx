@@ -1,12 +1,12 @@
 import React from 'react';
-import { useLoginClient } from '../context/LoginContext';
+import { useFirebaseApp } from '../context/FirebaseContext';
 
 export default function Login() {
-  const { client } = useLoginClient();
-  console.log(client);
-  const loginState = client?.getLoginState();
+  const { firebaseApp } = useFirebaseApp();
+  console.log(firebaseApp);
+  const loginState = firebaseApp?.getLoginState();
   const loginAPI = () => {
-    client?.login();
+    firebaseApp?.login();
   };
   return (
     <div>

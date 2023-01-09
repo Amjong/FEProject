@@ -1,14 +1,14 @@
 import { Outlet } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import { LoginContextProvider } from './context/LoginContext';
+import { FirebaseContextProvider } from './context/FirebaseContext';
 
 function App() {
   return (
-    <LoginContextProvider>
+    <FirebaseContextProvider>
       <Header />
       <Outlet />
-    </LoginContextProvider>
+    </FirebaseContextProvider>
   );
 }
 
