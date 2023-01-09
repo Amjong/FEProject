@@ -16,7 +16,7 @@ export default class FirebaseApp {
     return this.loginState;
   }
 
-  login() {
+  login(callback) {
     if (this.loginState) {
       console.log('already login!');
       return;
@@ -28,10 +28,12 @@ export default class FirebaseApp {
         const credential = GoogleAuthProvider.credentialFromResult(result);
         const token = credential.accessToken;
         // The signed-in user info.
+        console.log(result);
         const user = result.user;
         console.log(token, user);
         // ...
         this.loginState = !this.loginState;
+        callback(this.loginState);
       })
       .catch((error) => {
         // Handle Errors here.

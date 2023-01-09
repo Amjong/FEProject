@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useFirebaseApp } from '../context/FirebaseContext';
 
 export default function Login() {
   const { firebaseApp } = useFirebaseApp();
-  console.log(firebaseApp);
-  const loginState = firebaseApp?.getLoginState();
+  const [loginState, setLoginState] = useState(() => {
+    return firebaseApp?.getLoginState();
+  });
   const loginAPI = () => {
-    firebaseApp?.login();
+    firebaseApp?.login((state) => {
+      setLoginState(state);
+    });
   };
   return (
     <div>
@@ -15,7 +18,7 @@ export default function Login() {
           loginAPI();
         }}
       >
-        {loginState && loginState ? 'LogOut' : 'Login'}
+        {loginState ? 'LogOut' : 'Login'}
       </button>
     </div>
   );
