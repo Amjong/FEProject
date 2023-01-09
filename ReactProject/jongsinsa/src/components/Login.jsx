@@ -2,10 +2,11 @@ import React from 'react';
 import { useLoginClient } from '../context/LoginContext';
 
 export default function Login() {
-  const { loginClient } = useLoginClient();
-  const loginState = loginClient?.getLoginState();
+  const { client } = useLoginClient();
+  console.log(client);
+  const loginState = client?.getLoginState();
   const loginAPI = () => {
-    loginClient?.login();
+    client?.login();
   };
   return (
     <div>
