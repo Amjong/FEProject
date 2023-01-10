@@ -4,15 +4,15 @@ import Login from './Login';
 
 export default function Header() {
   return (
-    <div>
+    <div className='flex'>
       <img
-        className='w-1/5'
+        className='w-1/5 '
         src='https://res.cloudinary.com/dazzvmx3y/image/upload/v1673142546/Logo_yjedbj.png'
         alt='Logo'
       ></img>
-      <span>Products</span>
+      <span className='ml-auto'>Products</span>
       <FaShoppingCart />
-      <Login></Login>
+      <Login className='ml-auto'></Login>
     </div>
   );
 }

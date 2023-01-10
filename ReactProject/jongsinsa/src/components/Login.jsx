@@ -14,6 +14,7 @@ export default function Login() {
   return (
     <div>
       <button
+        className='border-2'
         onClick={() => {
           loginAPI();
         }}
