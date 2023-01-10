@@ -6,13 +6,17 @@ export default function Login() {
   const [loginState, setLoginState] = useState(() => {
     return firebaseApp?.getLoginState();
   });
+  const [user, setUser] = useState({});
   const loginAPI = () => {
-    firebaseApp?.login((state) => {
+    firebaseApp?.login((state, user) => {
       setLoginState(state);
+      setUser(user);
     });
   };
   return (
-    <div>
+    <div className='flex'>
+      {loginState ? user?.displayName : ''}
+      {loginState ? <img src={user?.photoURL} alt='userPhoto' /> : ''}
       <button
         className='border-2'
         onClick={() => {

@@ -33,7 +33,7 @@ export default class FirebaseApp {
         console.log(token, user);
         // ...
         this.loginState = !this.loginState;
-        callback(this.loginState);
+        callback(this.loginState, user);
       })
       .catch((error) => {
         // Handle Errors here.
