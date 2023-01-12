@@ -21,6 +21,20 @@ export default class FirebaseApp {
       console.log('already login!');
       return;
     }
+
+    this.#GoogleLogin(callback);
+  }
+
+  logout(callback) {
+    if (!this.loginState) {
+      console.log('already not login-ed!');
+      return;
+    }
+    this.loginState = !this.loginState;
+    callback(this.loginState);
+  }
+
+  #GoogleLogin(callback) {
     const auth = getAuth(this.app);
     signInWithPopup(auth, this.provider)
       .then((result) => {

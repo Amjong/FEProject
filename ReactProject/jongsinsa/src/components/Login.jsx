@@ -7,11 +7,18 @@ export default function Login() {
     return firebaseApp?.getLoginState();
   });
   const [user, setUser] = useState({});
-  const loginAPI = () => {
-    firebaseApp?.login((state, user) => {
-      setLoginState(state);
-      setUser(user);
-    });
+  const handleClick = () => {
+    const state = firebaseApp?.getLoginState();
+    if (state) {
+      firebaseApp?.logout((state) => {
+        setLoginState(state);
+      });
+    } else {
+      firebaseApp?.login((state, user) => {
+        setLoginState(state);
+        setUser(user);
+      });
+    }
   };
   return (
     <div className='flex'>
@@ -20,7 +27,7 @@ export default function Login() {
       <button
         className='border-2'
         onClick={() => {
-          loginAPI();
+          handleClick();
         }}
       >
         {loginState ? 'LogOut' : 'Login'}
