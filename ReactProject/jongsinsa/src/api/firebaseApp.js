@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
+import { getDatabase, ref, set } from 'firebase/database';
 
 export default class FirebaseApp {
   constructor(firebaseConfig) {
@@ -25,6 +26,18 @@ export default class FirebaseApp {
     this.#GoogleLogin(callback);
   }
 
+  writeProduct(productId, imageURL, price, categories, description, options) {
+    this.#writeToDataBase('products/' + productId, {
+      imageURL: imageURL,
+      price: price,
+      categories: categories,
+      description: description,
+      options: options,
+    });
+  }
+
+  appendProduct(productId, imageURL, price, categories, description, options) {}
+
   logout(callback) {
     if (!this.loginState) {
       console.log('already not login-ed!');
@@ -32,6 +45,11 @@ export default class FirebaseApp {
     }
     this.loginState = !this.loginState;
     callback(this.loginState);
+  }
+
+  #writeToDataBase(URL, object) {
+    const db = getDatabase(this.app);
+    set(ref(db, URL), object);
   }
 
   #GoogleLogin(callback) {
