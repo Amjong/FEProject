@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
-import { getDatabase, ref, set } from 'firebase/database';
+import { getDatabase, ref, set, get, child } from 'firebase/database';
 
 export default class FirebaseApp {
   constructor(firebaseConfig) {
@@ -36,7 +36,9 @@ export default class FirebaseApp {
     });
   }
 
-  appendProduct(productId, imageURL, price, categories, description, options) {}
+  readProduct(productId, callback) {
+    return this.#readFromDataBase(`products/${productId}`, callback);
+  }
 
   logout(callback) {
     if (!this.loginState) {
@@ -45,6 +47,23 @@ export default class FirebaseApp {
     }
     this.loginState = !this.loginState;
     callback(this.loginState);
+  }
+
+  #readFromDataBase(URL, callback) {
+    const dbRef = ref(getDatabase(this.app));
+    get(child(dbRef, URL))
+      .then((snapshot) => {
+        if (snapshot.exists()) {
+          const resultObject = snapshot.val();
+          callback(resultObject);
+        } else {
+          console.log('No data available');
+          return null;
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }
 
   #writeToDataBase(URL, object) {
