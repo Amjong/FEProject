@@ -33,6 +33,10 @@ export default function Home() {
     }, []); */
   return (
     <div>
+      <img
+        src='https://res.cloudinary.com/dazzvmx3y/image/upload/w_1000,ar_2:1,c_scale/v1673142546/BrandImage_eyjfx6.png'
+        alt='brandimage'
+      ></img>
       {productList && (
         <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5'>
           {productList.map((id) => (
