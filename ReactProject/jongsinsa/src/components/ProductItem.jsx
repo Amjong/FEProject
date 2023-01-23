@@ -11,7 +11,7 @@ export default function ProductItem({ productId }) {
   };
   useEffect(getProductItem, []);
   const handleClick = () => {
-    navigate(`product/${productId}`);
+    navigate(`product/${productId}`, { state: { product } });
   };
   return (
     <li
