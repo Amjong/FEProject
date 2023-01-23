@@ -27,9 +27,9 @@ export default class FirebaseApp {
     this.#GoogleLogin(callback);
   }
 
-  createProduct(imageURL, price, categories, description, options) {
+  async createProduct(imageURL, price, categories, description, options) {
     const newId = uuidv4();
-    this.#writeProduct(
+    await this.#writeProduct(
       newId,
       imageURL,
       price,
@@ -37,11 +37,12 @@ export default class FirebaseApp {
       description,
       options
     );
-    this.#updateProductList(newId);
+    await this.#updateProductList(newId);
+    return;
   }
 
   readProduct(productId, callback) {
-    return this.#readFromDataBase(`products/${productId}`, callback);
+    this.#readFromDataBase(`products/${productId}`, callback);
   }
 
   readProductList(callback) {
@@ -57,8 +58,15 @@ export default class FirebaseApp {
     callback(this.loginState);
   }
 
-  #writeProduct(productId, imageURL, price, categories, description, options) {
-    this.#writeToDataBase('products/' + productId, {
+  async #writeProduct(
+    productId,
+    imageURL,
+    price,
+    categories,
+    description,
+    options
+  ) {
+    await this.#writeToDataBase('products/' + productId, {
       imageURL: imageURL,
       price: price,
       categories: categories,
@@ -67,8 +75,8 @@ export default class FirebaseApp {
     });
   }
 
-  #updateProductList(newId) {
-    this.#readFromDataBase('productList', (list) => {
+  async #updateProductList(newId) {
+    await this.#readFromDataBase('productList', (list) => {
       if (list) {
         this.#writeToDataBase('productList', [...list, newId]);
       } else {
@@ -77,27 +85,22 @@ export default class FirebaseApp {
     });
   }
 
-  #readFromDataBase(URL, callback) {
+  async #readFromDataBase(URL, callback) {
     const dbRef = ref(getDatabase(this.app));
-    get(child(dbRef, URL))
-      .then((snapshot) => {
-        if (snapshot.exists()) {
-          const resultObject = snapshot.val();
-          callback(resultObject);
-          // console.log(resultObject);
-        } else {
-          console.log('No data available');
-          callback(null);
-        }
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+    const snapshot = await get(child(dbRef, URL));
+    if (snapshot.exists()) {
+      const resultObject = snapshot.val();
+      callback(resultObject);
+      // console.log(resultObject);
+    } else {
+      console.log('No data available');
+      callback(null);
+    }
   }
 
   #writeToDataBase(URL, object) {
     const db = getDatabase(this.app);
-    set(ref(db, URL), object);
+    return set(ref(db, URL), object);
   }
 
   #GoogleLogin(callback) {

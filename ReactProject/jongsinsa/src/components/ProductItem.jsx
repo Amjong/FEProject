@@ -9,14 +9,14 @@ export default function ProductItem({ productId }) {
   };
   useEffect(getProductItem, []);
   return (
-    <>
+    <li className='flex flex-col pt-10 m-3 border-2 rounded-md'>
       <img src={product?.imageURL} alt='productImage' />
-      <div>
+      <div className='whitespace-pre-line'>
         <span>{product?.description}</span>
         <span>{product?.price}</span>
         <span>{product?.categories}</span>
         <span>{product?.options}</span>
       </div>
-    </>
+    </li>
   );
 }

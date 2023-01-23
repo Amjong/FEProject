@@ -1,7 +1,7 @@
 const initialProduct = [
   {
     imageURL:
-      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/7_ictp3o.webp',
+      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/w_250,h_400,c_fill,g_auto,q_auto/7_ictp3o.webp',
     price: 80000,
     categories: '여성',
     description: '빨강 자켓',
@@ -9,7 +9,7 @@ const initialProduct = [
   },
   {
     imageURL:
-      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/5_wwsqxv.webp',
+      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/w_250,h_400,c_fill,g_auto,q_auto/5_wwsqxv.webp',
     price: 50000,
     categories: '여성',
     description: '줄무늬가 인상깊은 티셔츠',
@@ -17,7 +17,7 @@ const initialProduct = [
   },
   {
     imageURL:
-      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/4_uhjvje.webp',
+      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/w_250,h_400,c_fill,g_auto,q_auto/4_uhjvje.webp',
     price: 80000,
     categories: '여성',
     description: '밀짚바지',
@@ -25,7 +25,7 @@ const initialProduct = [
   },
   {
     imageURL:
-      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/6_mlmffz.webp',
+      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/w_250,h_400,c_fill,g_auto,q_auto/6_mlmffz.webp',
     price: 120000,
     categories: '여성',
     description: '원피스1',
@@ -33,7 +33,7 @@ const initialProduct = [
   },
   {
     imageURL:
-      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/2_d2og9g.webp',
+      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615918/w_250,h_400,c_fill,g_auto,q_auto/2_d2og9g.webp',
     price: 40000,
     categories: '남성',
     description: '검정 후드티',
@@ -41,7 +41,7 @@ const initialProduct = [
   },
   {
     imageURL:
-      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615917/1_xgkxbi.webp',
+      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615917/w_250,h_400,c_fill,g_auto,q_auto/1_xgkxbi.webp',
     price: 40000,
     categories: '남성',
     description: '핑크 후드티',
@@ -49,7 +49,7 @@ const initialProduct = [
   },
   {
     imageURL:
-      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615893/3_pyoeer.webp',
+      'https://res.cloudinary.com/dazzvmx3y/image/upload/v1673615893/w_250,h_400,c_fill,g_auto,q_auto/3_pyoeer.webp',
     price: 2000000,
     categories: '여성',
     description: '밀짚원피스',
