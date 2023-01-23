@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import { getDatabase, ref, set, get, child } from 'firebase/database';
+import { v4 as uuidv4 } from 'uuid';
 
 export default class FirebaseApp {
   constructor(firebaseConfig) {
@@ -26,18 +27,25 @@ export default class FirebaseApp {
     this.#GoogleLogin(callback);
   }
 
-  writeProduct(productId, imageURL, price, categories, description, options) {
-    this.#writeToDataBase('products/' + productId, {
-      imageURL: imageURL,
-      price: price,
-      categories: categories,
-      description: description,
-      options: options,
-    });
+  createProduct(imageURL, price, categories, description, options) {
+    const newId = uuidv4();
+    this.#writeProduct(
+      newId,
+      imageURL,
+      price,
+      categories,
+      description,
+      options
+    );
+    this.#updateProductList(newId);
   }
 
   readProduct(productId, callback) {
     return this.#readFromDataBase(`products/${productId}`, callback);
+  }
+
+  readProductList(callback) {
+    this.#readFromDataBase('productList', callback);
   }
 
   logout(callback) {
@@ -49,6 +57,26 @@ export default class FirebaseApp {
     callback(this.loginState);
   }
 
+  #writeProduct(productId, imageURL, price, categories, description, options) {
+    this.#writeToDataBase('products/' + productId, {
+      imageURL: imageURL,
+      price: price,
+      categories: categories,
+      description: description,
+      options: options,
+    });
+  }
+
+  #updateProductList(newId) {
+    this.#readFromDataBase('productList', (list) => {
+      if (list) {
+        this.#writeToDataBase('productList', [...list, newId]);
+      } else {
+        this.#writeToDataBase('productList', [newId]);
+      }
+    });
+  }
+
   #readFromDataBase(URL, callback) {
     const dbRef = ref(getDatabase(this.app));
     get(child(dbRef, URL))
@@ -56,9 +84,10 @@ export default class FirebaseApp {
         if (snapshot.exists()) {
           const resultObject = snapshot.val();
           callback(resultObject);
+          // console.log(resultObject);
         } else {
           console.log('No data available');
-          return null;
+          callback(null);
         }
       })
       .catch((error) => {
