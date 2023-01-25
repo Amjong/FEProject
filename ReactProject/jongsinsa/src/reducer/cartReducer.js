@@ -11,9 +11,9 @@ const findItem = (cartItems, newItem) => {
 
 export default function cartReducer(cartItems, action) {
   const newItem = action.item;
+  const findIdx = findItem(cartItems, newItem);
   switch (action.type) {
-    case 'add': {
-      const findIdx = findItem(cartItems, newItem);
+    case 'increase': {
       if (findIdx === -1) {
         return [
           ...cartItems,
@@ -36,13 +36,13 @@ export default function cartReducer(cartItems, action) {
         });
       }
     }
-    case 'remove': {
-      const findIdx = findItem(cartItems, newItem);
+    case 'decrease': {
       if (findIdx === -1) {
         return [...cartItems];
       }
       if (cartItems[findIdx].count <= 1) {
-        return cartItems.filter((item, index) => index !== findIdx);
+        alert('1개 미만은 구매할 수 없습니다!');
+        return [...cartItems];
       } else {
         return cartItems.map((item, index) => {
           if (findIdx === index) {
@@ -55,6 +55,13 @@ export default function cartReducer(cartItems, action) {
           }
         });
       }
+    }
+    case 'remove': {
+      if (!newItem.id) {
+        alert('올바르지 않은 삭제 요청입니다.');
+        return [...cartItems];
+      }
+      return cartItems.filter((item) => item.id !== newItem.id);
     }
     default:
       return undefined;

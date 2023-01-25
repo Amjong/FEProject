@@ -2,7 +2,7 @@ import React from 'react';
 import { useCart } from '../context/CartContext';
 
 export default function Carts() {
-  const { cartItems, handleAdd, handleRemove } = useCart();
+  const { cartItems, handleIncrease, handleDecrease, handleRemove } = useCart();
   return (
     <div>
       <h1 className='border-b border-black-300 text-center'>내 장바구니</h1>

@@ -5,7 +5,7 @@ import { useCart } from '../context/CartContext';
 import Login from './Login';
 
 export default function Header() {
-  const { cartItems, handleAdd, handleRemove } = useCart();
+  const { cartItems } = useCart();
   return (
     <div className='flex mb-3 border-b border-zinc-300'>
       <Link to='/'>

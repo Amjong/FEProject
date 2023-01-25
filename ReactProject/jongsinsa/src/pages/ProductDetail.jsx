@@ -4,7 +4,7 @@ import Option from '../components/Option';
 import { useCart } from '../context/CartContext';
 
 export default function ProductDetail() {
-  const { handleAdd } = useCart();
+  const { handleIncrease } = useCart();
   const {
     state: { product },
   } = useLocation();
@@ -23,7 +23,7 @@ export default function ProductDetail() {
         <Option options={product?.options} setOption={setOption}></Option>
         <button
           onClick={() => {
-            handleAdd({ ...product, options: option });
+            handleIncrease({ ...product, options: option });
           }}
           className='bg-zinc-600 px-4 text-white'
         >
