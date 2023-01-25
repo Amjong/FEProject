@@ -1,5 +1,17 @@
 import React from 'react';
+import { useCart } from '../context/CartContext';
 
 export default function Carts() {
-  return <div>Carts page!</div>;
+  const { cartItems, handleAdd, handleRemove } = useCart();
+  return (
+    <div>
+      {cartItems && (
+        <ul>
+          {cartItems.map((item) => (
+            <li key={item.id}>{item.id}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
 }
