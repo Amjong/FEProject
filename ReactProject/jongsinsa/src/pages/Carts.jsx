@@ -1,15 +1,18 @@
 import React from 'react';
+import CartItem from '../components/CartItem';
 import { useCart } from '../context/CartContext';
 
 export default function Carts() {
-  const { cartItems, handleIncrease, handleDecrease, handleRemove } = useCart();
+  const { cartItems } = useCart();
   return (
     <div>
       <h1 className='border-b border-black-300 text-center'>내 장바구니</h1>
       {cartItems && (
-        <ul className='flex flex-column'>
+        <ul className='flex flex-col'>
           {cartItems.map((item) => (
-            <li key={item.id}>{item.id}</li>
+            <li key={item.id}>
+              <CartItem item={item}></CartItem>
+            </li>
           ))}
         </ul>
       )}
