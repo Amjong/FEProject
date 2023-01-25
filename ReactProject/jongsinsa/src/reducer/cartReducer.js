@@ -1,6 +1,9 @@
 const findItem = (cartItems, newItem) => {
   return cartItems.findIndex((element) => {
-    return element.item.id === newItem.id;
+    return (
+      element.item.productId === newItem.productId &&
+      element.item.options === newItem.options
+    );
   });
 };
 
