@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Option from '../components/Option';
+import { useCart } from '../context/CartContext';
 
 export default function ProductDetail() {
+  const { handleAdd } = useCart();
   const {
     state: { product },
   } = useLocation();
@@ -19,7 +21,14 @@ export default function ProductDetail() {
         <div className='border-b border-zinc-300'>{product?.price} Gold</div>
         [사이즈 선택]
         <Option options={product?.options} setOption={setOption}></Option>
-        <button className='bg-zinc-600 px-4 text-white'>장바구니에 추가</button>
+        <button
+          onClick={() => {
+            handleAdd({ ...product, options: option });
+          }}
+          className='bg-zinc-600 px-4 text-white'
+        >
+          장바구니에 추가
+        </button>
       </div>
     </div>
   );
