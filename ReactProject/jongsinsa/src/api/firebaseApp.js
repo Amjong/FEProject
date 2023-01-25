@@ -67,6 +67,7 @@ export default class FirebaseApp {
     options
   ) {
     await this.#writeToDataBase('products/' + productId, {
+      productId: productId,
       imageURL: imageURL,
       price: price,
       categories: categories,
