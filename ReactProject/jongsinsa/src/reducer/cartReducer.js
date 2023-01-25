@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 const findItem = (cartItems, newItem) => {
   return cartItems.findIndex((element) => {
     return (
@@ -16,6 +18,7 @@ export default function cartReducer(cartItems, action) {
         return [
           ...cartItems,
           {
+            id: uuidv4(),
             item: newItem,
             count: 1,
           },
@@ -24,7 +27,7 @@ export default function cartReducer(cartItems, action) {
         return cartItems.map((item, index) => {
           if (findIdx === index) {
             return {
-              item: item.item,
+              ...item,
               count: item.count + 1,
             };
           } else {
@@ -44,7 +47,7 @@ export default function cartReducer(cartItems, action) {
         return cartItems.map((item, index) => {
           if (findIdx === index) {
             return {
-              item: item.item,
+              ...item,
               count: item.count - 1,
             };
           } else {
