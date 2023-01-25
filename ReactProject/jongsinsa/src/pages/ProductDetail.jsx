@@ -8,7 +8,7 @@ export default function ProductDetail() {
   const {
     state: { product },
   } = useLocation();
-  const [option, setOption] = useState('');
+  const [option, setOption] = useState(product?.options[0]);
   return (
     <div className='flex flex-row'>
       <img
