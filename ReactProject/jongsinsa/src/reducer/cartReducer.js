@@ -57,11 +57,11 @@ export default function cartReducer(cartItems, action) {
       }
     }
     case 'remove': {
-      if (!newItem.id) {
-        alert('올바르지 않은 삭제 요청입니다.');
-        return [...cartItems];
-      }
-      return cartItems.filter((item) => item.id !== newItem.id);
+      return cartItems.filter(
+        (item) =>
+          item.item.productId !== newItem.productId ||
+          item.item.options !== newItem.options
+      );
     }
     default:
       return undefined;
