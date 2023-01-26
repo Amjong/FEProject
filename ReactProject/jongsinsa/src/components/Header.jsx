@@ -15,7 +15,9 @@ export default function Header() {
           alt='Logo'
         ></img>
       </Link>
-      <span className='ml-auto'>Products</span>
+      <Link to='/products'>
+        <span className='ml-auto'>Products</span>
+      </Link>
       <Link to='/carts'>
         <FaShoppingCart className='w-6 h-6' />
         <span>{cartItems.length}</span>
