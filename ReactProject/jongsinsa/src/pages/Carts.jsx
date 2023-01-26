@@ -41,6 +41,14 @@ export default function Carts() {
           Gold
         </div>
       </div>
+      <button
+        className='text-center'
+        onClick={() => {
+          alert('현재 구매하기 기능은 구현되어 있지 않습니다!');
+        }}
+      >
+        구매하기
+      </button>
     </div>
   );
 }
