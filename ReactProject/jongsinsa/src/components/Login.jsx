@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useFirebaseApp } from '../context/FirebaseContext';
 
-export default function Login() {
+export default function Login({ setAdminState }) {
   const { firebaseApp } = useFirebaseApp();
   const [loginState, setLoginState] = useState(() => {
     return firebaseApp?.getLoginState();
@@ -12,11 +12,13 @@ export default function Login() {
     if (state) {
       firebaseApp?.logout((state) => {
         setLoginState(state);
+        setAdminState(false);
       });
     } else {
-      firebaseApp?.login((state, user) => {
+      firebaseApp?.login((state, user, isAdmin) => {
         setLoginState(state);
         setUser(user);
+        setAdminState(isAdmin);
       });
     }
   };

@@ -1,11 +1,12 @@
-import React from 'react';
-import { FaShoppingCart } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaShoppingCart, FaPencilAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import Login from './Login';
 
 export default function Header() {
   const { cartItems } = useCart();
+  const [isAdmin, setIsAdmin] = useState(false);
   return (
     <div className='flex mb-3 border-b border-zinc-300'>
       <Link to='/'>
@@ -22,7 +23,18 @@ export default function Header() {
         <FaShoppingCart className='w-6 h-6' />
         <span>{cartItems.length}</span>
       </Link>
-      <Login className='ml-auto'></Login>
+      {isAdmin && (
+        <Link to='/register'>
+          <FaPencilAlt className='w-6 h-6'></FaPencilAlt>
+        </Link>
+      )}
+
+      <Login
+        className='ml-auto'
+        setAdminState={(adminState) => {
+          setIsAdmin(adminState);
+        }}
+      ></Login>
     </div>
   );
 }

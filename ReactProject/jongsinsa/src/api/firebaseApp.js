@@ -4,10 +4,12 @@ import { getDatabase, ref, set, get, child } from 'firebase/database';
 import { v4 as uuidv4 } from 'uuid';
 
 export default class FirebaseApp {
-  constructor(firebaseConfig) {
+  #adminUserId;
+  #loginState = false;
+  constructor(firebaseConfig, adminUserId) {
     this.app = initializeApp(firebaseConfig);
     this.provider = new GoogleAuthProvider();
-    this.loginState = false;
+    this.#adminUserId = adminUserId;
   }
 
   getApp() {
@@ -15,11 +17,11 @@ export default class FirebaseApp {
   }
 
   getLoginState() {
-    return this.loginState;
+    return this.#loginState;
   }
 
   login(callback) {
-    if (this.loginState) {
+    if (this.#loginState) {
       console.log('already login!');
       return;
     }
@@ -50,12 +52,12 @@ export default class FirebaseApp {
   }
 
   logout(callback) {
-    if (!this.loginState) {
+    if (!this.#loginState) {
       console.log('already not login-ed!');
       return;
     }
-    this.loginState = !this.loginState;
-    callback(this.loginState);
+    this.#loginState = !this.#loginState;
+    callback(this.#loginState);
   }
 
   async #writeProduct(
@@ -108,16 +110,15 @@ export default class FirebaseApp {
     const auth = getAuth(this.app);
     signInWithPopup(auth, this.provider)
       .then((result) => {
-        // This gives you a Google Access Token. You can use it to access the Google API.
-        const credential = GoogleAuthProvider.credentialFromResult(result);
-        const token = credential.accessToken;
         // The signed-in user info.
-        console.log(result);
         const user = result.user;
-        console.log(token, user);
+        let isAdmin = false;
+        if (user.uid === this.#adminUserId) {
+          isAdmin = true;
+        }
         // ...
-        this.loginState = !this.loginState;
-        callback(this.loginState, user);
+        this.#loginState = !this.#loginState;
+        callback(this.#loginState, user, isAdmin);
       })
       .catch((error) => {
         // Handle Errors here.

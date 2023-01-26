@@ -14,7 +14,10 @@ const firebaseConfig = {
 };
 
 export const FirebaseContext = createContext();
-const firebaseApp = new FirebaseApp(firebaseConfig);
+const firebaseApp = new FirebaseApp(
+  firebaseConfig,
+  process.env.REACT_APP_FIREBASE_ADMIN_USER_ID
+);
 
 export function FirebaseContextProvider({ children }) {
   return (
