@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useFirebaseApp } from '../context/FirebaseContext';
 
 export default function Login({ setAdminState }) {
@@ -13,6 +13,9 @@ export default function Login({ setAdminState }) {
       setUser(user);
     });
   };
+  useEffect(() => {
+    firebaseApp?.onUserStateChange(setUser);
+  }, []);
   return (
     <div className='flex'>
       {user && <span>{user.displayName}</span>}

@@ -4,6 +4,7 @@ import {
   signInWithPopup,
   GoogleAuthProvider,
   signOut,
+  onAuthStateChanged,
 } from 'firebase/auth';
 import { getDatabase, ref, set, get, child } from 'firebase/database';
 import { v4 as uuidv4 } from 'uuid';
@@ -117,5 +118,12 @@ export default class FirebaseApp {
   async logout() {
     const auth = getAuth(this.app);
     return signOut(auth).then(() => null);
+  }
+
+  onUserStateChange(callback) {
+    const auth = getAuth(this.app);
+    onAuthStateChanged(auth, (user) => {
+      callback(user);
+    });
   }
 }
