@@ -18,8 +18,14 @@ export default function Login({ setAdminState }) {
   }, []);
   return (
     <div className='flex'>
-      {user && <span>{user.displayName}</span>}
-      {user && <img src={user.photoURL} alt='userPhoto' />}
+      {user && (
+        <img
+          className='w-10 h-10 rounded-full mr-2'
+          src={user.photoURL}
+          alt='userPhoto'
+        />
+      )}
+      {user && <span className='hidden md:block'>{user.displayName}</span>}
       {user && (
         <button className='border-2' onClick={handleLogout}>
           Logout
