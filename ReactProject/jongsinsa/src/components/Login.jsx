@@ -3,37 +3,30 @@ import { useFirebaseApp } from '../context/FirebaseContext';
 
 export default function Login({ setAdminState }) {
   const { firebaseApp } = useFirebaseApp();
-  const [loginState, setLoginState] = useState(() => {
-    return firebaseApp?.getLoginState();
-  });
-  const [user, setUser] = useState({});
-  const handleClick = () => {
-    const state = firebaseApp?.getLoginState();
-    if (state) {
-      firebaseApp?.logout((state) => {
-        setLoginState(state);
-        setAdminState(false);
-      });
-    } else {
-      firebaseApp?.login((state, user, isAdmin) => {
-        setLoginState(state);
-        setUser(user);
-        setAdminState(isAdmin);
-      });
-    }
+  const [user, setUser] = useState();
+  const handleLogout = () => {
+    firebaseApp?.logout().then(setUser);
+  };
+  const handleLogin = () => {
+    firebaseApp?.login().then((user) => {
+      console.log(user);
+      setUser(user);
+    });
   };
   return (
     <div className='flex'>
-      {loginState ? user?.displayName : ''}
-      {loginState ? <img src={user?.photoURL} alt='userPhoto' /> : ''}
-      <button
-        className='border-2'
-        onClick={() => {
-          handleClick();
-        }}
-      >
-        {loginState ? 'LogOut' : 'Login'}
-      </button>
+      {user && <span>{user.displayName}</span>}
+      {user && <img src={user.photoURL} alt='userPhoto' />}
+      {user && (
+        <button className='border-2' onClick={handleLogout}>
+          Logout
+        </button>
+      )}
+      {!user && (
+        <button className='border-2' onClick={handleLogin}>
+          Login
+        </button>
+      )}
     </div>
   );
 }

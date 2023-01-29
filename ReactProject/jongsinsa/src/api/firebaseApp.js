@@ -1,11 +1,15 @@
 import { initializeApp } from 'firebase/app';
-import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
+import {
+  getAuth,
+  signInWithPopup,
+  GoogleAuthProvider,
+  signOut,
+} from 'firebase/auth';
 import { getDatabase, ref, set, get, child } from 'firebase/database';
 import { v4 as uuidv4 } from 'uuid';
 
 export default class FirebaseApp {
   #adminUserId;
-  #loginState = false;
   constructor(firebaseConfig, adminUserId) {
     this.app = initializeApp(firebaseConfig);
     this.provider = new GoogleAuthProvider();
@@ -14,19 +18,6 @@ export default class FirebaseApp {
 
   getApp() {
     return this.app;
-  }
-
-  getLoginState() {
-    return this.#loginState;
-  }
-
-  login(callback) {
-    if (this.#loginState) {
-      console.log('already login!');
-      return;
-    }
-
-    this.#GoogleLogin(callback);
   }
 
   async createProduct(imageURL, price, categories, description, options) {
@@ -49,15 +40,6 @@ export default class FirebaseApp {
 
   readProductList(callback) {
     this.#readFromDataBase('productList', callback);
-  }
-
-  logout(callback) {
-    if (!this.#loginState) {
-      console.log('already not login-ed!');
-      return;
-    }
-    this.#loginState = !this.#loginState;
-    callback(this.#loginState);
   }
 
   async #writeProduct(
@@ -106,9 +88,9 @@ export default class FirebaseApp {
     return set(ref(db, URL), object);
   }
 
-  #GoogleLogin(callback) {
+  async login() {
     const auth = getAuth(this.app);
-    signInWithPopup(auth, this.provider)
+    return signInWithPopup(auth, this.provider)
       .then((result) => {
         // The signed-in user info.
         const user = result.user;
@@ -117,8 +99,7 @@ export default class FirebaseApp {
           isAdmin = true;
         }
         // ...
-        this.#loginState = !this.#loginState;
-        callback(this.#loginState, user, isAdmin);
+        return user;
       })
       .catch((error) => {
         // Handle Errors here.
@@ -131,5 +112,10 @@ export default class FirebaseApp {
         console.log(errorCode, errorMessage, email, credential);
         // ...
       });
+  }
+
+  async logout() {
+    const auth = getAuth(this.app);
+    return signOut(auth).then(() => null);
   }
 }
