@@ -6,7 +6,7 @@ import Login from './Login';
 
 export default function Header() {
   const { cartItems } = useCart();
-  const [isAdmin, setIsAdmin] = useState(false);
+  const [user, setUser] = useState();
   return (
     <div className='flex justify-between mb-3 border-b border-gray-300 p-2'>
       <Link to='/' className='flex items-center text-4xl'>
@@ -24,17 +24,12 @@ export default function Header() {
           <FaShoppingCart className='w-6 h-6' />
           <span>{cartItems.length}</span>
         </Link>
-        {isAdmin && (
+        {user?.isAdmin && (
           <Link to='/register'>
             <FaPencilAlt className='w-6 h-6'></FaPencilAlt>
           </Link>
         )}
-        <Login
-          className='ml-auto'
-          setAdminState={(adminState) => {
-            setIsAdmin(adminState);
-          }}
-        ></Login>
+        <Login className='ml-auto' user={user} setUser={setUser}></Login>
       </nav>
     </div>
   );

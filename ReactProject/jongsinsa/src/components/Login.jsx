@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useFirebaseApp } from '../context/FirebaseContext';
 
-export default function Login({ setAdminState }) {
+export default function Login({ user, setUser }) {
   const { firebaseApp } = useFirebaseApp();
-  const [user, setUser] = useState();
   const handleLogout = () => {
     firebaseApp?.logout().then(setUser);
   };

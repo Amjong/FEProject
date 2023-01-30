@@ -95,12 +95,11 @@ export default class FirebaseApp {
       .then((result) => {
         // The signed-in user info.
         const user = result.user;
-        let isAdmin = false;
         if (user.uid === this.#adminUserId) {
-          isAdmin = true;
+          return { ...user, isAdmin: true };
         }
         // ...
-        return user;
+        return { ...user, isAdmin: false };
       })
       .catch((error) => {
         // Handle Errors here.
