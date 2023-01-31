@@ -1,8 +1,11 @@
 import React, { useEffect } from 'react';
+import { useAuth } from '../context/AuthContext';
 import { useFirebaseApp } from '../context/FirebaseContext';
+import Button from './ui/Button';
 
-export default function Login({ user, setUser }) {
+export default function Login() {
   const { firebaseApp } = useFirebaseApp();
+  const { user, setUser } = useAuth();
   const handleLogout = () => {
     firebaseApp?.logout().then(setUser);
   };
@@ -25,16 +28,8 @@ export default function Login({ user, setUser }) {
         />
       )}
       {user && <span className='hidden md:block'>{user.displayName}</span>}
-      {user && (
-        <button className='border-2' onClick={handleLogout}>
-          Logout
-        </button>
-      )}
-      {!user && (
-        <button className='border-2' onClick={handleLogin}>
-          Login
-        </button>
-      )}
+      {user && <Button text={'Logout'} onClick={handleLogout}></Button>}
+      {!user && <Button text={'Login'} onClick={handleLogin}></Button>}
     </div>
   );
 }
