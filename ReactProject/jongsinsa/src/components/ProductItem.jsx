@@ -21,8 +21,8 @@ export default function ProductItem({ productId }) {
       }}
     >
       <img src={product?.imageURL} alt='productImage' />
-      <div className='whitespace-pre-line'>
-        <span>{product?.description}</span>
+      <div className='whitespace-pre-line rounded-lg shadow-md overflow-hidden cursor-pointer'>
+        <span className='truncate'>{product?.description}</span>
         <span>{product?.price}</span>
         <span>{product?.categories}</span>
         <span>{product?.options}</span>
