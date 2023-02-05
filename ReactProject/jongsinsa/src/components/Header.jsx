@@ -23,8 +23,12 @@ export default function Header() {
         </Link>
         {user && (
           <Link to='/carts'>
-            <FaShoppingCart className='w-6 h-6' />
-            <span>{cartItems.length}</span>
+            <div className='relative'>
+              <FaShoppingCart className='text-4xl' />
+              <p className='w-6 h-6 text-center bg-red-500 text-white font-bold rounded-full absolute -top-1 -right-2'>
+                {cartItems.length}
+              </p>
+            </div>
           </Link>
         )}
 
