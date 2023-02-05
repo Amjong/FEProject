@@ -15,7 +15,7 @@ export default function ProductItem({ productId }) {
   };
   return (
     <li
-      className='flex flex-col pt-10 m-3 border-2 rounded-lg shadow-md overflow-hidden cursor-pointer'
+      className='flex flex-col pt-10 m-3 border-2 rounded-lg shadow-md overflow-hidden cursor-pointer hover:scale-105'
       onClick={() => {
         handleClick();
       }}
